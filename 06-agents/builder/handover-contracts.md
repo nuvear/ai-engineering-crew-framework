@@ -1,4 +1,4 @@
-# Builder Agent — Handover Contracts
+# Builder Agent - Handover Contracts
 
 ## Purpose
 

@@ -61,5 +61,5 @@ cannot approve or merge its own work.
 
 ## Level 7: Validation, Deployment, and Knowledge Agents (Future)
 
-Critic Agent, QA Agent, DevOps Agent, and Documentation Agent — defined in roadmap v1.3
+Critic Agent, QA Agent, DevOps Agent, and Documentation Agent - defined in roadmap v1.3
 through v1.6.

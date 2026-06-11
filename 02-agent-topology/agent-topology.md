@@ -4,9 +4,9 @@
 
 ```text
 Human Decision Approver
-        ↓
+        v
 Enterprise Architect Agent
-        ↓
+        v
 Requirement / PM / Governance / UX / Builder / Critic / QA / DevOps / Documentation
 ```
 
@@ -17,13 +17,13 @@ Agent without an explicit workspace layer.
 
 ```text
 Human Decision Approver
-        ↓
+        v
 Enterprise Architect Agent
-        ↓
+        v
 Environment Engineering Agent
-        ↓
+        v
 Collaboration Workspace
-        ↓
+        v
 Specialist Agents
 ```
 

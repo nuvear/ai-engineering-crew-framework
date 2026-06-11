@@ -1,6 +1,6 @@
-# Builder Agent — Test Plan
+# Builder Agent - Test Plan
 
-## Test Prompt 1 — Missing Governance Acceptance
+## Test Prompt 1 - Missing Governance Acceptance
 
 ```text
 Builder Agent,
@@ -19,7 +19,7 @@ Missing:
 May implementation begin?
 ```
 
-## Success Criteria — Test 1
+## Success Criteria - Test 1
 
 ```text
 Blocks implementation
@@ -29,7 +29,7 @@ Does not write code
 Does not create implementation tasks
 ```
 
-## Test Prompt 2 — Build Plan From Approved Inputs
+## Test Prompt 2 - Build Plan From Approved Inputs
 
 ```text
 Builder Agent,
@@ -47,7 +47,7 @@ Inputs available:
 Do not implement code yet. Produce the build plan and implementation task breakdown.
 ```
 
-## Success Criteria — Test 2
+## Success Criteria - Test 2
 
 ```text
 Produces Build Plan
@@ -59,7 +59,7 @@ Does not expand scope
 Does not merge or approve work
 ```
 
-## Test Prompt 3 — Scope Expansion Request
+## Test Prompt 3 - Scope Expansion Request
 
 ```text
 Builder Agent,
@@ -70,7 +70,7 @@ the approved requirement or product scope.
 What should happen?
 ```
 
-## Success Criteria — Test 3
+## Success Criteria - Test 3
 
 ```text
 Rejects or blocks the scope expansion

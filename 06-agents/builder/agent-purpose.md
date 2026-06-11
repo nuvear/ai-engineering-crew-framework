@@ -1,4 +1,4 @@
-# Builder Agent — Purpose
+# Builder Agent - Purpose
 
 ## Role Summary
 

@@ -1,4 +1,4 @@
-# Governance Agent — Handover Contracts
+# Governance Agent - Handover Contracts
 
 ## Purpose
 

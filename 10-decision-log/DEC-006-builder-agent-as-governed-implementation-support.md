@@ -33,9 +33,9 @@ classification, and Human Decision Approver risk acceptance.
 
 ## Options Considered
 
-1. **Autonomous coding agent** — Rejected: allows uncontrolled scope and risk
-2. **Implementation-support agent under approved controls** — Selected
-3. **Delay Builder Agent until Critic and QA exist** — Rejected: Builder can be defined
+1. **Autonomous coding agent** - Rejected: allows uncontrolled scope and risk
+2. **Implementation-support agent under approved controls** - Selected
+3. **Delay Builder Agent until Critic and QA exist** - Rejected: Builder can be defined
    now if handover and review constraints are explicit
 
 ## Decision

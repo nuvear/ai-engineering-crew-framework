@@ -6,7 +6,7 @@
 
 The AI Engineering Crew Framework is a structured operating model that enables a
 business-oriented Human Decision Approver to direct an AI-native engineering crew to
-design, build, review, deploy, and govern software solutions — without becoming a
+design, build, review, deploy, and govern software solutions - without becoming a
 programmer.
 
 GitHub is the official source of truth for project memory, decisions, and deliverables.
@@ -60,7 +60,7 @@ The current framework documents:
 7. Requirement Agent
 8. Product Manager Agent
 9. UX/UI Agent
-10. Approval gates (Gates 0–6)
+10. Approval gates (Gates 0-6)
 11. GitHub branching policy
 12. Pull request policy
 13. Commit deliverables policy
@@ -100,7 +100,7 @@ Step 11: DevOps Agent
 Step 12: Documentation Agent
 ```
 
-The repository documents Steps 1–8. Step 8 adds Builder Agent setup as governed
+The repository documents Steps 1-8. Step 8 adds Builder Agent setup as governed
 implementation support.
 
 Builder Agent must not begin implementation unless Governance Agent has completed risk
@@ -111,19 +111,19 @@ conditions.
 
 ```text
 ai-engineering-crew-framework/
-├── README.md
-├── 00-vision/                    Framework charter and philosophy
-├── 01-operating-model/           Human + crew operating model
-├── 02-agent-topology/            Agent hierarchy and handovers
-├── 03-workspace-architecture/    GitHub + Figma workspace design
-├── 04-approval-gates/            Gates 0–6 approval checkpoints
-├── 05-policies/                  Branching, PR, testing, traceability
-├── 06-agents/                    Agent definitions (7 agents through Step 8)
-├── 07-templates/                 Reusable document templates
-├── 08-reference-project/         Inventory management reference flow
-├── 09-roadmap/                   Version roadmap and next steps
-├── 10-decision-log/              Recorded framework decisions
-└── .github/                      PR template, CODEOWNERS, issue templates
+|-- README.md
+|-- 00-vision/                    Framework charter and philosophy
+|-- 01-operating-model/           Human + crew operating model
+|-- 02-agent-topology/            Agent hierarchy and handovers
+|-- 03-workspace-architecture/    GitHub + Figma workspace design
+|-- 04-approval-gates/            Gates 0-6 approval checkpoints
+|-- 05-policies/                  Branching, PR, testing, traceability
+|-- 06-agents/                    Agent definitions (7 agents through Step 8)
+|-- 07-templates/                 Reusable document templates
+|-- 08-reference-project/         Inventory management reference flow
+|-- 09-roadmap/                   Version roadmap and next steps
+|-- 10-decision-log/              Recorded framework decisions
+`-- .github/                      PR template, CODEOWNERS, issue templates
 ```
 
 ## Approval Gates
@@ -143,18 +143,18 @@ documentation.
 
 ## How to Use This Repository
 
-1. **Read the vision** — Start with
+1. **Read the vision** - Start with
    [00-vision/framework-charter.md](00-vision/framework-charter.md)
-2. **Understand the operating model** — Review
+2. **Understand the operating model** - Review
    [01-operating-model/](01-operating-model/)
-3. **Set up agents in order** — Follow Steps 1–8 in [06-agents/](06-agents/)
-4. **Configure workspace** — Use
+3. **Set up agents in order** - Follow Steps 1-8 in [06-agents/](06-agents/)
+4. **Configure workspace** - Use
    [03-workspace-architecture/](03-workspace-architecture/)
-5. **Apply templates** — Use [07-templates/](07-templates/) for all deliverables
-6. **Walk the reference project** — Study [08-reference-project/](08-reference-project/)
+5. **Apply templates** - Use [07-templates/](07-templates/) for all deliverables
+6. **Walk the reference project** - Study [08-reference-project/](08-reference-project/)
    inventory management example
-7. **Respect approval gates** — No phase proceeds without human approval
-8. **Commit everything to GitHub** — Use the
+7. **Respect approval gates** - No phase proceeds without human approval
+8. **Commit everything to GitHub** - Use the
    [branch naming format](#branch-naming-format) below
 
 ## Branch Naming Format
@@ -197,9 +197,9 @@ See [09-roadmap/framework-roadmap.md](09-roadmap/framework-roadmap.md) for detai
 
 ## Current Step
 
-Current completed step: **Step 8 — Builder Agent Setup**
+Current completed step: **Step 8 - Builder Agent Setup**
 
-Next step: **Step 9 — Critic Agent Setup**
+Next step: **Step 9 - Critic Agent Setup**
 
 Builder Agent setup is complete only as an operating model. Actual implementation work
 still requires approved requirements, approved product scope, approved UX/UI handover

@@ -1,4 +1,4 @@
-# Governance Agent — Purpose
+# Governance Agent - Purpose
 
 ## Owns
 

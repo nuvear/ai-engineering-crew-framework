@@ -7,25 +7,25 @@ repository structure:
 
 ```text
 project-name/
-│
-├── docs/
-│   ├── 00-environment/
-│   ├── 01-business-intent/
-│   ├── 02-requirements/
-│   ├── 03-product-management/
-│   ├── 04-ux-ui/
-│   ├── 05-architecture/
-│   ├── 06-governance/
-│   ├── 07-build/
-│   ├── 08-qa/
-│   ├── 09-devops/
-│   ├── 10-documentation/
-│   └── 11-decision-log/
-│
-├── src/
-├── tests/
-├── .github/
-└── README.md
+|
+|-- docs/
+|   |-- 00-environment/
+|   |-- 01-business-intent/
+|   |-- 02-requirements/
+|   |-- 03-product-management/
+|   |-- 04-ux-ui/
+|   |-- 05-architecture/
+|   |-- 06-governance/
+|   |-- 07-build/
+|   |-- 08-qa/
+|   |-- 09-devops/
+|   |-- 10-documentation/
+|   `-- 11-decision-log/
+|
+|-- src/
+|-- tests/
+|-- .github/
+`-- README.md
 ```
 
 ## Directory Purposes

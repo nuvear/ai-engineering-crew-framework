@@ -2,7 +2,7 @@
 
 ## Current Work
 
-The current framework work is Step 8 — Builder Agent Setup.
+The current framework work is Step 8 - Builder Agent Setup.
 
 Step 8 adds the Builder Agent operating model and defines:
 
@@ -38,4 +38,4 @@ Before beginning Builder Agent setup:
 
 ## Next Phase
 
-After Step 8 is approved and merged, the next framework phase is Step 9 — Critic Agent.
+After Step 8 is approved and merged, the next framework phase is Step 9 - Critic Agent.

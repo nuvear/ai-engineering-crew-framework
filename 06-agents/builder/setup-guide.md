@@ -1,4 +1,4 @@
-# Builder Agent — Setup Guide
+# Builder Agent - Setup Guide
 
 ## Agent Setup
 
