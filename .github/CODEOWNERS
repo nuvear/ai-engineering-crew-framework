@@ -1,0 +1,16 @@
+# Framework ownership
+/README.md @nuvear
+
+/00-vision/ @nuvear
+/01-operating-model/ @nuvear
+/02-agent-topology/ @nuvear
+/03-workspace-architecture/ @nuvear
+/04-approval-gates/ @nuvear
+/05-policies/ @nuvear
+/06-agents/ @nuvear
+/07-templates/ @nuvear
+/08-reference-project/ @nuvear
+/09-roadmap/ @nuvear
+/10-decision-log/ @nuvear
+
+/.github/ @nuvear
