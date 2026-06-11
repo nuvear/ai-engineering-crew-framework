@@ -42,17 +42,18 @@ Specifically, the human approves:
 
 - Write application code
 - Configure development tools (agents handle this with human approval of standards)
-- Line-by-line code review (future Critic and QA agents handle technical review)
+- Line-by-line code review (Critic Agent handles review; QA Agent will handle future QA
+  execution)
 - Bypass approval gates
 
 ## Decision Recording
 
-Every major human decision must be recorded in GitHub — either as an approval comment on
+Every major human decision must be recorded in GitHub - either as an approval comment on
 a pull request, an issue status change, or a decision log entry.
 
 ## Relationship to Agents
 
 Agents prepare structured recommendations, trade-off analyses, and decision packages.
 The human evaluates these in business terms and approves, rejects, or requests revision.
-The human never needs to understand implementation details to make valid decisions —
+The human never needs to understand implementation details to make valid decisions -
 agents must explain technical concepts in business-friendly language first.

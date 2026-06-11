@@ -52,8 +52,9 @@ Workspace (GitHub + Figma) before specialist planning and design agents activate
 | UX/UI Agent                   | Design                 |
 | Governance Agent              | Governance             |
 | Builder Agent                 | Implementation Support |
+| Critic Agent                  | Independent Review     |
 
 ## Future Agents
 
-Critic, QA, DevOps, and Documentation agents remain future steps. Builder Agent hands
-off to the future Critic Agent after preparing traceable implementation pull requests.
+QA, DevOps, and Documentation agents remain future steps. Critic Agent reviews Builder
+Agent outputs before future QA handover.

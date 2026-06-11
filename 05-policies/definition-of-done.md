@@ -100,3 +100,24 @@
 - [ ] Builder-to-Critic handover complete
 - [ ] Pull request summary complete
 - [ ] Builder Agent did not approve or merge its own pull request
+
+## Critic Independent Review
+
+- [ ] Builder-to-Critic handover exists
+- [ ] Builder Pull Request Summary reviewed
+- [ ] Requirement traceability reviewed
+- [ ] Product scope conformance reviewed
+- [ ] UX/UI handover conformance reviewed when applicable
+- [ ] Architecture conformance reviewed
+- [ ] Governance conformance reviewed
+- [ ] Code quality and maintainability reviewed
+- [ ] Security, privacy, compliance, and reliability concerns reviewed
+- [ ] Test evidence sufficiency reviewed
+- [ ] Findings classified by severity
+- [ ] Required Builder corrections documented
+- [ ] QA readiness recommendation documented
+- [ ] Critic-to-Builder feedback complete when corrections are required
+- [ ] Critic-to-QA handover complete when ready for QA
+- [ ] Critic Agent did not implement fixes
+- [ ] Critic Agent did not approve or merge the pull request
+- [ ] Critic Agent did not replace QA Agent

@@ -32,10 +32,14 @@ implementation tasks, approved-scope code changes, test evidence, pull request
 summaries, and Builder-to-Critic handovers under requirement, architecture, governance,
 and human approval controls.
 
-## v1.3 - Critic Agent (Future)
+## v1.3 - Critic Agent
 
-Code review, architecture conformance review, security review, and quality gate before
-QA.
+Critic Agent is defined as independent review before QA. It reviews Builder outputs for
+requirement traceability, product scope conformance, UX/UI handover conformance when
+applicable, architecture conformance, governance conformance, code quality,
+maintainability, security, reliability, test evidence, pull request readiness, and QA
+handover readiness. It cannot implement fixes, merge pull requests, deploy code, approve
+final release, or replace QA Agent.
 
 ## v1.4 - QA Agent (Future)
 

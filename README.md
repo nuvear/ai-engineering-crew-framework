@@ -70,6 +70,7 @@ The current framework documents:
 17. Setup, test, and proceed workflow
 18. Governance Agent and enterprise risk management framework
 19. Builder Agent operating model
+20. Critic Agent independent review operating model
 
 Framework Baseline v1.0 documents agent setup through **Step 6 (UX/UI Agent)**.
 
@@ -82,6 +83,11 @@ complete.
 support operating model only. It does not authorize application implementation without
 approved requirements, architecture, governance acceptance, testing expectations, and
 pull request review.
+
+**Step 9 (Critic Agent)** defines Critic Agent setup as an independent review operating
+model only. It reviews Builder Agent outputs before QA handover, but it does not
+implement fixes, replace QA Agent, approve final release, merge pull requests, or
+replace Human Decision Approver approval.
 
 ## Agent Setup Order
 
@@ -100,12 +106,15 @@ Step 11: DevOps Agent
 Step 12: Documentation Agent
 ```
 
-The repository documents Steps 1-8. Step 8 adds Builder Agent setup as governed
-implementation support.
+The repository documents Steps 1-9. Step 9 adds Critic Agent setup as independent review
+before QA handover.
 
 Builder Agent must not begin implementation unless Governance Agent has completed risk
 classification and the Human Decision Approver has accepted the required governance
 conditions.
+
+Critic Agent must not implement fixes, approve final merge, deploy code, or replace QA
+Agent.
 
 ## Repository Structure
 
@@ -118,7 +127,7 @@ ai-engineering-crew-framework/
 |-- 03-workspace-architecture/    GitHub + Figma workspace design
 |-- 04-approval-gates/            Gates 0-6 approval checkpoints
 |-- 05-policies/                  Branching, PR, testing, traceability
-|-- 06-agents/                    Agent definitions (7 agents through Step 8)
+|-- 06-agents/                    Agent definitions (8 agents through Step 9)
 |-- 07-templates/                 Reusable document templates
 |-- 08-reference-project/         Inventory management reference flow
 |-- 09-roadmap/                   Version roadmap and next steps
@@ -147,7 +156,7 @@ documentation.
    [00-vision/framework-charter.md](00-vision/framework-charter.md)
 2. **Understand the operating model** - Review
    [01-operating-model/](01-operating-model/)
-3. **Set up agents in order** - Follow Steps 1-8 in [06-agents/](06-agents/)
+3. **Set up agents in order** - Follow Steps 1-9 in [06-agents/](06-agents/)
 4. **Configure workspace** - Use
    [03-workspace-architecture/](03-workspace-architecture/)
 5. **Apply templates** - Use [07-templates/](07-templates/) for all deliverables
@@ -174,6 +183,7 @@ agent/ux-ui/UX-001-inventory-wireframes
 agent/environment-engineering/ENV-001-repository-setup
 agent/governance/GOV-001-risk-classification
 agent/builder/BUILD-001-approved-scope
+agent/critic/CRITIC-001-independent-review
 ```
 
 See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full
@@ -186,7 +196,7 @@ branching rules.
 | v1.0    | Framework Baseline (merged) |
 | v1.1    | Governance Agent            |
 | v1.2    | Builder Agent (defined)     |
-| v1.3    | Critic Agent                |
+| v1.3    | Critic Agent (defined)      |
 | v1.4    | QA Agent                    |
 | v1.5    | DevOps Agent                |
 | v1.6    | Documentation Agent         |
@@ -197,9 +207,9 @@ See [09-roadmap/framework-roadmap.md](09-roadmap/framework-roadmap.md) for detai
 
 ## Current Step
 
-Current completed step: **Step 8 - Builder Agent Setup**
+Current completed step: **Step 9 - Critic Agent Setup**
 
-Next step: **Step 9 - Critic Agent Setup**
+Next step: **Step 10 - QA Agent Setup**
 
 Builder Agent setup is complete only as an operating model. Actual implementation work
 still requires approved requirements, approved product scope, approved UX/UI handover
@@ -210,6 +220,11 @@ and pull request review.
 Builder Agent must not begin implementation unless Governance Agent has completed risk
 classification and the Human Decision Approver has accepted the required governance
 conditions.
+
+Critic Agent setup is complete only as an operating model. QA Agent is not yet
+implemented. Critic Agent reviews Builder output before QA handover, but it does not
+replace QA Agent, implement fixes, approve final release, merge pull requests, or
+replace Human Decision Approver approval.
 
 ---
 

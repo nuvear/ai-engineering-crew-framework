@@ -28,6 +28,16 @@ Use `.github/PULL_REQUEST_TEMPLATE.md` for all pull requests.
 4. Human Decision Approver approves if gate criteria are met
 5. PR merges to `main`
 
+## Implementation PR Review Discipline
+
+Implementation pull requests prepared by Builder Agent require independent Critic Agent
+review before QA handover. Critic Agent reviews traceability, scope conformance,
+architecture conformance, governance conformance, code quality, test evidence, risk
+notes, and QA readiness.
+
+Critic Agent must not implement fixes, approve final merge, or merge the pull request it
+reviews.
+
 ## Documentation PRs
 
 For documentation-only deliverables, test evidence includes traceability check,

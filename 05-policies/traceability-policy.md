@@ -3,7 +3,7 @@
 ## Full Traceability Chain
 
 ```text
-Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Decision -> Build Item -> Test Case -> Release Evidence
+Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Decision -> Governance Control -> Build Item -> Critic Finding -> Test Case -> Release Evidence
 ```
 
 ## Current Coverage
@@ -11,7 +11,7 @@ Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Decision -> B
 For the current framework state, traceability must cover:
 
 ```text
-Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Handover -> Governance Control -> Build Item
+Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Handover -> Governance Control -> Build Item -> Critic Finding
 ```
 
 ## Traceability Requirements
@@ -24,6 +24,7 @@ Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Handover -> G
 | UX Flow -> Architecture      | Architecture blueprint references approved UX/UI handover |
 | Architecture -> Governance   | Governance review references approved architecture        |
 | Governance -> Build Item     | Every build item references governance conditions         |
+| Build Item -> Critic Finding | Critic findings reference affected build items and files  |
 | Build Item -> Test Case      | Every build item has test expectations and evidence       |
 | Test Case -> Release         | Future: release evidence links to test results (v1.6+)    |
 

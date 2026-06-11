@@ -2,9 +2,10 @@
 
 ## Current Workflow
 
-This documents the workflow through Builder Agent setup as a governed implementation
-support operating model. It does not authorize application implementation without the
-required approvals and governance acceptance.
+This documents the workflow through Critic Agent setup as an independent review
+operating model. It does not authorize application implementation without the required
+approvals, governance acceptance, Builder discipline, Critic review, and pull request
+controls.
 
 ```text
 1. Human creates Business Intent.
@@ -23,6 +24,7 @@ required approvals and governance acceptance.
 14. Governance Agent classifies risk and defines required controls.
 15. Human accepts, conditionally accepts, or rejects governance conditions.
 16. Builder Agent prepares governed build plans and implementation tasks only for approved, traceable work.
+17. Critic Agent independently reviews Builder Agent outputs before QA handover.
 ```
 
 ## Step-by-Step Detail
@@ -81,7 +83,19 @@ implementation tasks, documents traceability, and prepares pull request and
 Builder-to-Critic handover materials. Builder Agent must not approve, merge, or deploy
 its own work.
 
+### Step 17: Critic Review
+
+The Critic Agent independently reviews Builder Agent outputs for requirement
+traceability, product scope conformance, UX/UI handover conformance when applicable,
+architecture conformance, governance conformance, code quality, maintainability,
+security concerns, reliability concerns, test evidence sufficiency, pull request
+readiness, known limitations, and unresolved risks.
+
+Critic Agent may send required corrections back to Builder Agent or prepare a
+Critic-to-QA handover when findings do not block QA readiness. Critic Agent must not
+implement fixes, approve final merge, deploy code, or replace QA Agent.
+
 ## Future Workflow Extensions
 
-Future workflow extensions add Critic review, QA, DevOps deployment, documentation, and
-Gate 6 release approval.
+Future workflow extensions add QA, DevOps deployment, documentation, and Gate 6 release
+approval.

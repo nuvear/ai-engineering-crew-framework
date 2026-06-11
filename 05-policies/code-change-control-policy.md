@@ -36,6 +36,10 @@ Every implementation change must enter through a pull request that includes:
 
 Builder Agent must not approve or merge its own pull request.
 
+Critic Agent must independently review Builder Agent pull requests before QA handover.
+Critic Agent must not implement fixes, approve final merge, or merge the pull request it
+reviews.
+
 Implementation pull requests require review for:
 
 - Requirement traceability
@@ -44,6 +48,7 @@ Implementation pull requests require review for:
 - Governance condition conformance
 - Test evidence
 - Security and data handling concerns
+- Maintainability and reliability concerns
 - Human approval where required
 
 ## Test Evidence

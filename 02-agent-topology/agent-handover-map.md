@@ -13,7 +13,8 @@ UX/UI Agent -> Enterprise Architect Agent
 Enterprise Architect Agent -> Governance Agent
 Governance Agent -> Human Decision Approver
 Human Decision Approver -> Builder Agent
-Builder Agent -> Critic Agent (future)
+Builder Agent -> Critic Agent
+Critic Agent -> QA Agent (future)
 ```
 
 ## Handover Details
@@ -30,22 +31,25 @@ Builder Agent -> Critic Agent (future)
 | Enterprise Architect Agent    | Governance Agent              | Architecture Blueprint, architecture constraints               |
 | Governance Agent              | Human Decision Approver       | Governance Review, Risk Classification, human decision package |
 | Human Decision Approver       | Builder Agent                 | Governance acceptance, authorized build scope                  |
-| Builder Agent                 | Critic Agent (future)         | Pull request, test evidence, Builder-to-Critic handover        |
+| Builder Agent                 | Critic Agent                  | Pull request, test evidence, Builder-to-Critic handover        |
+| Critic Agent                  | QA Agent (future)             | Critic Review Report, Critic-to-QA handover                    |
 
-## Active Step 8 Handover
+## Active Step 9 Handover
 
 ```text
-UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent -> Critic Agent (future)
+UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent -> Critic Agent -> QA Agent (future)
 ```
 
 Builder Agent must not begin until Governance Agent completes risk classification and
 the Human Decision Approver accepts governance conditions.
 
+Critic Agent reviews Builder Agent outputs before QA handover. Critic Agent must not
+implement fixes, merge pull requests, deploy code, or replace QA Agent.
+
 ## Future Handovers
 
-After Builder Agent setup and Step 8 merge:
+After Critic Agent setup and Step 9 merge:
 
-- Critic Agent -> QA Agent (reviewed code for testing)
 - QA Agent -> DevOps Agent (tested code for deployment)
 - DevOps Agent -> Documentation Agent (deployed system for documentation)
 - QA, DevOps, Documentation, and Governance -> Human Decision Approver (Gate 6 release

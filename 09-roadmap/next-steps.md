@@ -2,40 +2,47 @@
 
 ## Current Work
 
-The current framework work is Step 8 - Builder Agent Setup.
+The current completed framework work is Step 9 - Critic Agent Setup.
 
-Step 8 adds the Builder Agent operating model and defines:
+Step 9 adds the Critic Agent operating model and defines:
 
 ```text
-Build planning
-Implementation task breakdown
-Approved-scope code change control
-Requirement-to-code traceability
-Test evidence expectations
-Pull request discipline
-Builder-to-Critic handover
+Independent review of Builder Agent outputs
+Requirement-to-code traceability review
+Architecture conformance review
+Governance conformance review
+Code quality and maintainability critique
+Security, privacy, compliance, and reliability concern identification
+Test evidence review
+Finding severity classification
+Critic-to-Builder feedback
+Critic-to-QA handover
 ```
 
-## Step 8 Prerequisites
+## Step 9 Prerequisites
 
-Before beginning Builder Agent setup:
+Before beginning Critic Agent setup:
 
 - [ ] Framework Baseline v1.0 is committed and reviewed
 - [ ] Governance Agent v1.1 is merged
-- [ ] Reference project walkthrough is complete through Gate 5
-- [ ] Governance risk acceptance rules are documented
-- [ ] Human Decision Approver has reviewed governance controls
+- [ ] Builder Agent v1.2 is merged
+- [ ] Builder-to-Critic handover is documented
+- [ ] Pull request review discipline is documented
+- [ ] Review separation rules are documented
 
-## Step 8 Completion Criteria
+## Step 9 Completion Criteria
 
-- [ ] Builder Agent folder in `06-agents/builder/` is complete
-- [ ] Builder implementation policy is documented
-- [ ] Code change control policy is documented
-- [ ] Build plan and implementation task templates are complete
-- [ ] Builder-to-Critic handover is defined
-- [ ] Builder Agent cannot approve or merge its own pull request
-- [ ] Builder Agent remains blocked unless governance acceptance is recorded
+- [ ] Critic Agent folder in `06-agents/critic/` is complete
+- [ ] Critic review policy is documented
+- [ ] Review separation policy is documented
+- [ ] Critic review templates are complete
+- [ ] Finding severity model is defined
+- [ ] Critic-to-Builder feedback is defined
+- [ ] Critic-to-QA handover is defined
+- [ ] Critic Agent cannot implement fixes
+- [ ] Critic Agent cannot approve or merge pull requests
+- [ ] Critic Agent does not replace QA Agent
 
 ## Next Phase
 
-After Step 8 is approved and merged, the next framework phase is Step 9 - Critic Agent.
+After Step 9 is approved and merged, the next framework phase is Step 10 - QA Agent.
