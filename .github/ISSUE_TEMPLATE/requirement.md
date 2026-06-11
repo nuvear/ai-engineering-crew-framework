@@ -2,8 +2,8 @@
 name: Requirement Issue
 about: Track requirement work items in the AI Engineering Crew Framework
 title: "[REQUIREMENT] "
-labels:
-  - "status: draft"
+labels: ["status: draft"]
+assignees: ''
 ---
 
 ## Title

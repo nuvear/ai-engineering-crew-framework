@@ -2,8 +2,8 @@
 name: Business Issue
 about: Track business intent work items in the AI Engineering Crew Framework
 title: "[BUSINESS] "
-labels:
-  - "status: draft"
+labels: ["status: draft"]
+assignees: ''
 ---
 
 ## Title

@@ -2,8 +2,8 @@
 name: Product Issue
 about: Track product feature work items in the AI Engineering Crew Framework
 title: "[PRODUCT] "
-labels:
-  - "status: draft"
+labels: ["status: draft"]
+assignees: ''
 ---
 
 ## Title
