@@ -2,7 +2,7 @@
 
 ## Test 1: Mode 1 — Experience Design
 
-### Prompt
+### Test Prompt 1
 
 ```text
 UX/UI Agent,
@@ -22,7 +22,7 @@ Using the approved Product Plan for the Inventory Management System, create Mode
 Do not create visual UI yet.
 ```
 
-### Success Criteria
+### Success Criteria — Test 1
 
 ```text
 Does not create UI before UX approval
@@ -37,7 +37,7 @@ Creates UX-to-Architecture handover
 
 ## Test 2: Mode 2 — Visual Design
 
-### Prompt
+### Test Prompt 2
 
 ```text
 UX/UI Agent,
@@ -55,7 +55,7 @@ Use the approved brand guidance and create Mode 2 UI outputs:
 7. UI-to-Architecture handover
 ```
 
-### Success Criteria
+### Success Criteria — Test 2
 
 ```text
 Uses approved wireframes

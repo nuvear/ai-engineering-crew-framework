@@ -26,17 +26,21 @@ All baseline agents
 
 ## Context
 
-The framework serves business-oriented leaders who must retain decision authority. Without explicit gates, agents may proceed through phases without human validation.
+The framework serves business-oriented leaders who must retain decision authority.
+Without explicit gates, agents may proceed through phases without human validation.
 
 ## Options Considered
 
 1. **Agent-autonomous progression** — Rejected: removes human accountability
-2. **Single approval at release only** — Rejected: scope and design errors discovered too late
-3. **Mandatory gates at each phase transition** — Selected: human validates at every critical point
+2. **Single approval at release only** — Rejected: scope and design errors discovered
+   too late
+3. **Mandatory gates at each phase transition** — Selected: human validates at every
+   critical point
 
 ## Decision
 
-Human approval gates are mandatory at environment, requirement, product scope, UX, UI, architecture, and release stages.
+Human approval gates are mandatory at environment, requirement, product scope, UX, UI,
+architecture, and release stages.
 
 ## Reason
 
@@ -52,4 +56,5 @@ The human owns business judgment, risk acceptance, value, and final accountabili
 
 ## Follow-up Action
 
-Configure GitHub Project Board with gate-aligned statuses and gate labels. Train all agents to respect gate boundaries.
+Configure GitHub Project Board with gate-aligned statuses and gate labels. Train all
+agents to respect gate boundaries.

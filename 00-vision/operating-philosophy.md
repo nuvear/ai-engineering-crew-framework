@@ -38,7 +38,9 @@ Documentation
 Governance support
 ```
 
-Agents do not operate as isolated chatbots. They collaborate through GitHub Issues, Pull Requests, the Project Board, markdown documents, decision logs, Figma links, handover contracts, and approval gates.
+Agents do not operate as isolated chatbots. They collaborate through GitHub Issues, Pull
+Requests, the Project Board, markdown documents, decision logs, Figma links, handover
+contracts, and approval gates.
 
 ## Source of Truth
 
@@ -49,8 +51,12 @@ If it is not approved, it should not be merged.
 If it is not tested, it should not be released.
 ```
 
-GitHub is the official project memory. Figma is the official design workspace. Agent chat output is temporary until committed.
+GitHub is the official project memory. Figma is the official design workspace. Agent
+chat output is temporary until committed.
 
 ## Design for Business-Led Leaders
 
-The framework is designed for a **business-led vibe coder** — someone who understands business deeply and wants to leverage AI engineering capability without being forced to behave like a programmer. The system protects the human from accidental technical chaos while preserving full decision authority.
+The framework is designed for a **business-led vibe coder** — someone who understands
+business deeply and wants to leverage AI engineering capability without being forced to
+behave like a programmer. The system protects the human from accidental technical chaos
+while preserving full decision authority.

@@ -6,11 +6,13 @@ Inventory Management System
 
 ## Business Goal
 
-Enable a small business to track product inventory accurately, respond to low-stock situations promptly, and generate simple operational reports.
+Enable a small business to track product inventory accurately, respond to low-stock
+situations promptly, and generate simple operational reports.
 
 ## Problem to Solve
 
-The business currently tracks inventory using spreadsheets, leading to stock discrepancies, missed reorder points, and no audit trail for stock movements.
+The business currently tracks inventory using spreadsheets, leading to stock
+discrepancies, missed reorder points, and no audit trail for stock movements.
 
 ## Target Users
 
@@ -19,7 +21,8 @@ The business currently tracks inventory using spreadsheets, leading to stock dis
 
 ## Expected Outcome
 
-A software system that tracks products, stock quantities, movements, alerts, and reports — accessible to non-technical users.
+A software system that tracks products, stock quantities, movements, alerts, and reports
+— accessible to non-technical users.
 
 ## Constraints
 

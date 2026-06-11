@@ -2,7 +2,8 @@
 
 ## Standard Software Project Repository
 
-Every software solution built under the AI Engineering Crew Framework should follow this repository structure:
+Every software solution built under the AI Engineering Crew Framework should follow this
+repository structure:
 
 ```text
 project-name/
@@ -28,19 +29,19 @@ project-name/
 
 ## Directory Purposes
 
-| Directory | Contents |
-|---|---|
-| `docs/00-environment/` | Environment setup, tool inventory, access matrix, branching strategy |
-| `docs/01-business-intent/` | Business intent documents |
-| `docs/02-requirements/` | Requirement specifications |
-| `docs/03-product-management/` | Product plans, MVP scope, roadmaps |
-| `docs/04-ux-ui/` | Personas, journeys, wireframes, Figma links, UI handover |
-| `docs/05-architecture/` | Architecture blueprints |
-| `docs/06-governance/` | Risk registers, compliance docs (future) |
-| `docs/07-qa/` | Test plans, test reports (future) |
-| `docs/08-devops/` | Deployment configs, CI/CD (future) |
-| `docs/09-documentation/` | User guides, API docs (future) |
-| `docs/10-decision-log/` | Decision records |
-| `src/` | Application source code (future, after build phase) |
-| `tests/` | Test code (future) |
-| `.github/` | Issue templates, PR template, CODEOWNERS, workflows |
+| Directory                     | Contents                                                             |
+| ----------------------------- | -------------------------------------------------------------------- |
+| `docs/00-environment/`        | Environment setup, tool inventory, access matrix, branching strategy |
+| `docs/01-business-intent/`    | Business intent documents                                            |
+| `docs/02-requirements/`       | Requirement specifications                                           |
+| `docs/03-product-management/` | Product plans, MVP scope, roadmaps                                   |
+| `docs/04-ux-ui/`              | Personas, journeys, wireframes, Figma links, UI handover             |
+| `docs/05-architecture/`       | Architecture blueprints                                              |
+| `docs/06-governance/`         | Risk registers, compliance docs (future)                             |
+| `docs/07-qa/`                 | Test plans, test reports (future)                                    |
+| `docs/08-devops/`             | Deployment configs, CI/CD (future)                                   |
+| `docs/09-documentation/`      | User guides, API docs (future)                                       |
+| `docs/10-decision-log/`       | Decision records                                                     |
+| `src/`                        | Application source code (future, after build phase)                  |
+| `tests/`                      | Test code (future)                                                   |
+| `.github/`                    | Issue templates, PR template, CODEOWNERS, workflows                  |

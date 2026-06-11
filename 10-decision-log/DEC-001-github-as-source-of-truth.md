@@ -26,21 +26,27 @@ Environment Engineering Agent
 
 ## Context
 
-The AI Engineering Crew Framework requires a permanent, version-controlled collaboration workspace. Agent conversations are ephemeral and cannot serve as project memory.
+The AI Engineering Crew Framework requires a permanent, version-controlled collaboration
+workspace. Agent conversations are ephemeral and cannot serve as project memory.
 
 ## Options Considered
 
-1. **Agent chat history as source of truth** — Rejected: no versioning, no review, no traceability
-2. **Shared document platform (Google Docs, Notion)** — Rejected: lacks PR workflow, branch protection, and developer integration
-3. **GitHub as source of truth** — Selected: versioning, PRs, issues, project board, CODEOWNERS, decision history
+1. **Agent chat history as source of truth** — Rejected: no versioning, no review, no
+   traceability
+2. **Shared document platform (Google Docs, Notion)** — Rejected: lacks PR workflow,
+   branch protection, and developer integration
+3. **GitHub as source of truth** — Selected: versioning, PRs, issues, project board,
+   CODEOWNERS, decision history
 
 ## Decision
 
-GitHub is the official source of truth for the AI Engineering Crew Framework and for future project workspaces.
+GitHub is the official source of truth for the AI Engineering Crew Framework and for
+future project workspaces.
 
 ## Reason
 
-Agent conversations are temporary. GitHub provides versioning, traceability, review, pull requests, and decision history.
+Agent conversations are temporary. GitHub provides versioning, traceability, review,
+pull requests, and decision history.
 
 ## Impact
 
@@ -51,4 +57,5 @@ Agent conversations are temporary. GitHub provides versioning, traceability, rev
 
 ## Follow-up Action
 
-Environment Engineering Agent to configure GitHub workspace with templates, labels, and branch protection as part of Gate 0.
+Environment Engineering Agent to configure GitHub workspace with templates, labels, and
+branch protection as part of Gate 0.

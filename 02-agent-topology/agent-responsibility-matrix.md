@@ -2,45 +2,54 @@
 
 ## Enterprise Architect Agent
 
-| Field | Description |
-|---|---|
-| Owns | Solution blueprint, architecture decisions, integration strategy, NFRs, security design, agent orchestration, architecture review |
-| Does Not Own | Raw business approval, product scope, final release, unapproved code |
-| Key Output | Architecture blueprint, activation plans, review notes |
-| Approval Required | Human (Gate 5) |
+| Field             | Description                                                                                                                       |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Owns              | Solution blueprint, architecture decisions, integration strategy, NFRs, security design, agent orchestration, architecture review |
+| Does Not Own      | Raw business approval, product scope, final release, unapproved code                                                              |
+| Key Output        | Architecture blueprint, activation plans, review notes                                                                            |
+| Approval Required | Human (Gate 5)                                                                                                                    |
 
 ## Environment Engineering Agent
 
-| Field | Description |
-|---|---|
-| Owns | GitHub setup, Figma setup, project board, branching, templates, CODEOWNERS, CI/CD foundation, secrets strategy, access matrix |
-| Does Not Own | Product scope, business requirements, UX decisions, application code, final release |
-| Key Output | Environment setup docs, Gate 0 checklist |
-| Approval Required | Human (Gate 0) |
+| Field             | Description                                                                                                                   |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Owns              | GitHub setup, Figma setup, project board, branching, templates, CODEOWNERS, CI/CD foundation, secrets strategy, access matrix |
+| Does Not Own      | Product scope, business requirements, UX decisions, application code, final release                                           |
+| Key Output        | Environment setup docs, Gate 0 checklist                                                                                      |
+| Approval Required | Human (Gate 0)                                                                                                                |
 
 ## Requirement Agent
 
-| Field | Description |
-|---|---|
-| Owns | Requirement discovery, scope definition, user roles, acceptance criteria, traceability |
-| Does Not Own | Architecture, code, deployment, final business approval |
-| Key Output | Requirement specification, scope boundary |
-| Approval Required | Human (Gate 1) |
+| Field             | Description                                                                            |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| Owns              | Requirement discovery, scope definition, user roles, acceptance criteria, traceability |
+| Does Not Own      | Architecture, code, deployment, final business approval                                |
+| Key Output        | Requirement specification, scope boundary                                              |
+| Approval Required | Human (Gate 1)                                                                         |
 
 ## Product Manager Agent
 
-| Field | Description |
-|---|---|
-| Owns | MVP definition, prioritization, roadmap, release planning, success metrics, scope control |
-| Does Not Own | Architecture, code, QA execution, deployment, final approval |
-| Key Output | Product plan, feature priority matrix |
-| Approval Required | Human (Gate 2) |
+| Field             | Description                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------- |
+| Owns              | MVP definition, prioritization, roadmap, release planning, success metrics, scope control |
+| Does Not Own      | Architecture, code, QA execution, deployment, final approval                              |
+| Key Output        | Product plan, feature priority matrix                                                     |
+| Approval Required | Human (Gate 2)                                                                            |
 
 ## UX/UI Agent
 
-| Field | Description |
-|---|---|
-| Owns | Personas, journeys, wireframes, prototype, sample data, brand/UI design, developer handoff |
-| Does Not Own | Product scope, architecture, code, final approval |
-| Key Output | UX plan, UI handover, Figma links |
-| Approval Required | Human (Gates 3 and 4) |
+| Field             | Description                                                                                |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| Owns              | Personas, journeys, wireframes, prototype, sample data, brand/UI design, developer handoff |
+| Does Not Own      | Product scope, architecture, code, final approval                                          |
+| Key Output        | UX plan, UI handover, Figma links                                                          |
+| Approval Required | Human (Gates 3 and 4)                                                                      |
+
+## Governance Agent
+
+| Field             | Description                                                                                                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Owns              | Risk identification, risk classification, governance review, AI usage review, data governance review, audit evidence requirements, release governance support, value tracking, governance handovers |
+| Does Not Own      | Final risk acceptance, budget approval, scope approval, architecture design, code implementation, final release go/no-go                                                                            |
+| Key Output        | Governance Review, Risk Classification, AI Usage Declaration, Data Classification, Governance-to-Builder Handover                                                                                   |
+| Approval Required | Human risk acceptance before Builder Agent begins                                                                                                                                                   |

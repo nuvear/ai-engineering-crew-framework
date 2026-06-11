@@ -1,14 +1,13 @@
 # Risk Register
 
-File path:
-docs/06-governance/RISK-REGISTER-[project-name].md
+File path: docs/06-governance/RISK-REGISTER-[project-name].md
 
 ## 1. Project Context
 
 ## 2. Risk Summary
 
 | Risk ID | Title | Category | Likelihood | Impact | Score | Owner | Status |
-|---|---|---|---|---|---|---|---|
+| ------- | ----- | -------- | ---------- | ------ | ----- | ----- | ------ |
 
 ## 3. Risk Details
 
@@ -26,6 +25,6 @@ docs/06-governance/RISK-REGISTER-[project-name].md
 ## 4. Accepted Risks
 
 | Risk ID | Acceptance Reason | Accepted By | Date |
-|---|---|---|---|
+| ------- | ----------------- | ----------- | ---- |
 
 ## 5. Risk Review Schedule

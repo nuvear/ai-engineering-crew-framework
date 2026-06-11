@@ -18,15 +18,18 @@ Templates
 
 ## Repository
 
-Create a dedicated repository per software solution. The framework repository (`ai-engineering-crew-framework`) is separate from project repositories.
+Create a dedicated repository per software solution. The framework repository
+(`ai-engineering-crew-framework`) is separate from project repositories.
 
 ## Project Board
 
-Configure columns matching workflow statuses (see [github-project-board.md](github-project-board.md)).
+Configure columns matching workflow statuses (see
+[github-project-board.md](github-project-board.md)).
 
 ## Issues
 
-Use issue templates for business intent, requirements, product features, decisions, and risks.
+Use issue templates for business intent, requirements, product features, decisions, and
+risks.
 
 ## Labels
 
@@ -79,7 +82,8 @@ agent/<agent-name>/<work-item-id>-short-description
 
 ## Branch Protection
 
-Protect `main` branch. Require pull request reviews before merge. No direct commits to main.
+Protect `main` branch. Require pull request reviews before merge. No direct commits to
+main.
 
 ## CODEOWNERS
 
@@ -87,8 +91,10 @@ Define ownership for framework and project directories. See `.github/CODEOWNERS`
 
 ## Decision Logs
 
-Store decision records in `docs/10-decision-log/` (project) or `10-decision-log/` (framework).
+Store decision records in `docs/10-decision-log/` (project) or `10-decision-log/`
+(framework).
 
 ## Templates
 
-Issue templates, PR template, and markdown document templates ensure consistent artifact structure.
+Issue templates, PR template, and markdown document templates ensure consistent artifact
+structure.

@@ -3,8 +3,10 @@ name: Decision Issue
 about: Track decision work items in the AI Engineering Crew Framework
 title: "[DECISION] "
 labels: ["status: draft"]
-assignees: ''
+assignees: ""
 ---
+
+# Decision Issue Template
 
 ## Title
 

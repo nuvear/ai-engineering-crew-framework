@@ -4,20 +4,30 @@
 
 ## Purpose
 
-The AI Engineering Crew Framework is a structured operating model that enables a business-oriented Human Decision Approver to direct an AI-native engineering crew to design, build, review, deploy, and govern software solutions — without becoming a programmer.
+The AI Engineering Crew Framework is a structured operating model that enables a
+business-oriented Human Decision Approver to direct an AI-native engineering crew to
+design, build, review, deploy, and govern software solutions — without becoming a
+programmer.
 
-GitHub is the official source of truth for project memory, decisions, and deliverables. Figma is the official design workspace for UX/UI work.
+GitHub is the official source of truth for project memory, decisions, and deliverables.
+Figma is the official design workspace for UX/UI work.
 
 ## Who This Framework Is For
 
 This framework is designed for:
 
-- **Business leaders and product owners** who own intent, value, priority, risk, and final approval
-- **Business-led vibe coders** who want engineering discipline packaged into an AI-native crew
+- **Business leaders and product owners** who own intent, value, priority, risk, and
+  final approval
+- **Business-led vibe coders** who want engineering discipline packaged into an
+  AI-native crew
 - **Enterprise teams** adopting AI agents for structured software delivery
-- **Organizations** that require traceability, approval gates, and governance from day one
+- **Organizations** that require traceability, approval gates, and governance from day
+  one
 
-The human acts as Business Sponsor, Product Owner, Decision Approver, Value Owner, and Final Accountability Holder. The agents supply structure, discipline, technical reasoning, implementation support, review, testing, deployment preparation, documentation, and governance support.
+The human acts as Business Sponsor, Product Owner, Decision Approver, Value Owner, and
+Final Accountability Holder. The agents supply structure, discipline, technical
+reasoning, implementation support, review, testing, deployment preparation,
+documentation, and governance support.
 
 ## Core Operating Philosophy
 
@@ -59,7 +69,13 @@ If it is not tested, it should not be released.
 16. Handover contracts between agents
 17. Setup, test, and proceed workflow
 
-This baseline covers agent setup through **Step 6 (UX/UI Agent)**.
+This baseline documents agent setup through **Step 6 (UX/UI Agent)** in Framework
+Baseline v1.0.
+
+**Step 7 (Governance Agent)** defines the governance and enterprise risk management
+framework required before Builder Agent begins. Builder Agent remains blocked until
+Governance Agent risk classification and Human Decision Approver acceptance are
+complete.
 
 ## Agent Setup Order
 
@@ -78,9 +94,12 @@ Step 11: DevOps Agent
 Step 12: Documentation Agent
 ```
 
-The repository currently documents the framework up to Step 6 and prepares the next step:
+The repository documents Steps 1–7. Step 7 adds the Governance Agent and enterprise risk
+management framework.
 
-**Step 7 — Governance Agent Setup and Enterprise Risk Management Framework**
+Builder Agent must not begin implementation unless Governance Agent has completed risk
+classification and the Human Decision Approver has accepted the required governance
+conditions.
 
 ## Repository Structure
 
@@ -93,7 +112,7 @@ ai-engineering-crew-framework/
 ├── 03-workspace-architecture/    GitHub + Figma workspace design
 ├── 04-approval-gates/            Gates 0–6 approval checkpoints
 ├── 05-policies/                  Branching, PR, testing, traceability
-├── 06-agents/                    Agent definitions (5 agents)
+├── 06-agents/                    Agent definitions (6 agents with Step 7)
 ├── 07-templates/                 Reusable document templates
 ├── 08-reference-project/         Inventory management reference flow
 ├── 09-roadmap/                   Version roadmap and next steps
@@ -103,28 +122,34 @@ ai-engineering-crew-framework/
 
 ## Approval Gates
 
-| Gate | Name | Prepared By |
-|---|---|---|
-| 0 | Environment Readiness | Environment Engineering Agent |
-| 1 | Requirement Approval | Requirement Agent |
-| 2 | Product Scope Approval | Product Manager Agent |
-| 3 | UX Approval | UX/UI Agent (Experience Design Mode) |
-| 4 | UI Approval | UX/UI Agent (Visual Design Mode) |
-| 5 | Architecture Approval | Enterprise Architect Agent |
-| 6 | Release Approval | QA, DevOps, Documentation, Governance (future) |
+| Gate | Name                   | Prepared By                                    |
+| ---- | ---------------------- | ---------------------------------------------- |
+| 0    | Environment Readiness  | Environment Engineering Agent                  |
+| 1    | Requirement Approval   | Requirement Agent                              |
+| 2    | Product Scope Approval | Product Manager Agent                          |
+| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)           |
+| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)               |
+| 5    | Architecture Approval  | Enterprise Architect Agent                     |
+| 6    | Release Approval       | QA, DevOps, Documentation (future), Governance |
 
-See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full gate documentation.
+See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full gate
+documentation.
 
 ## How to Use This Repository
 
-1. **Read the vision** — Start with [00-vision/framework-charter.md](00-vision/framework-charter.md)
-2. **Understand the operating model** — Review [01-operating-model/](01-operating-model/)
-3. **Set up agents in order** — Follow Steps 1–6 in [06-agents/](06-agents/)
-4. **Configure workspace** — Use [03-workspace-architecture/](03-workspace-architecture/)
+1. **Read the vision** — Start with
+   [00-vision/framework-charter.md](00-vision/framework-charter.md)
+2. **Understand the operating model** — Review
+   [01-operating-model/](01-operating-model/)
+3. **Set up agents in order** — Follow Steps 1–7 in [06-agents/](06-agents/)
+4. **Configure workspace** — Use
+   [03-workspace-architecture/](03-workspace-architecture/)
 5. **Apply templates** — Use [07-templates/](07-templates/) for all deliverables
-6. **Walk the reference project** — Study [08-reference-project/](08-reference-project/) inventory management example
+6. **Walk the reference project** — Study [08-reference-project/](08-reference-project/)
+   inventory management example
 7. **Respect approval gates** — No phase proceeds without human approval
-8. **Commit everything to GitHub** — Use the [branch naming format](#branch-naming-format) below
+8. **Commit everything to GitHub** — Use the
+   [branch naming format](#branch-naming-format) below
 
 ## Branch Naming Format
 
@@ -141,32 +166,44 @@ agent/requirement/REQ-001-inventory-requirements
 agent/product-manager/PROD-001-mvp-scope
 agent/ux-ui/UX-001-inventory-wireframes
 agent/environment-engineering/ENV-001-repository-setup
+agent/governance/GOV-001-risk-classification
 ```
 
-See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full branching rules.
+See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full
+branching rules.
 
 ## Version Roadmap
 
-| Version | Focus |
-|---|---|
-| v1.0 | Framework Baseline (current) |
-| v1.1 | Governance Agent |
-| v1.2 | Builder Agent |
-| v1.3 | Critic Agent |
-| v1.4 | QA Agent |
-| v1.5 | DevOps Agent |
-| v1.6 | Documentation Agent |
-| v1.7 | Multi-Agent Workflow |
-| v2.0 | Production Platform |
+| Version | Focus                       |
+| ------- | --------------------------- |
+| v1.0    | Framework Baseline (merged) |
+| v1.1    | Governance Agent            |
+| v1.2    | Builder Agent               |
+| v1.3    | Critic Agent                |
+| v1.4    | QA Agent                    |
+| v1.5    | DevOps Agent                |
+| v1.6    | Documentation Agent         |
+| v1.7    | Multi-Agent Workflow        |
+| v2.0    | Production Platform         |
 
 See [09-roadmap/framework-roadmap.md](09-roadmap/framework-roadmap.md) for details.
 
-## Next Step
+## Current Step
 
-**Step 7 — Governance Agent Setup and Enterprise Risk Management Framework**
+Current completed step: **Step 7 — Governance Agent Setup and Enterprise Risk Management
+Framework**
 
-The Governance Agent will define risk classification, compliance requirements, approval workflow, auditability, AI usage policy, data governance, value-realization tracking, and release governance.
+Next step: **Step 8 — Builder Agent Setup**
+
+The Governance Agent defines risk classification, compliance requirements, approval
+workflow, auditability, AI usage policy, data governance, value-realization tracking,
+and release governance.
+
+Builder Agent must not begin implementation unless Governance Agent has completed risk
+classification and the Human Decision Approver has accepted the required governance
+conditions.
 
 ---
 
-Repository: https://github.com/nuvear/ai-engineering-crew-framework.git
+Repository:
+[nuvear/ai-engineering-crew-framework](https://github.com/nuvear/ai-engineering-crew-framework.git)

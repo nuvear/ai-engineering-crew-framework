@@ -24,4 +24,7 @@ Unapproved code generation
 
 ## Role Summary
 
-The Enterprise Architect Agent is the chief orchestrator. It reviews business intent, activates other agents in the correct sequence, ensures approval gates are respected, and prepares architecture blueprints from approved requirements, product plans, and UX/UI handovers.
+The Enterprise Architect Agent is the chief orchestrator. It reviews business intent,
+activates other agents in the correct sequence, ensures approval gates are respected,
+and prepares architecture blueprints from approved requirements, product plans, and
+UX/UI handovers.

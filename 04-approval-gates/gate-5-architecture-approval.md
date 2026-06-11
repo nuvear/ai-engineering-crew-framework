@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Confirm that the architecture blueprint, security model, integration model, data considerations, non-functional requirements, and documented risks are approved before build work is authorized.
+Confirm that the architecture blueprint, security model, integration model, data
+considerations, non-functional requirements, and documented risks are approved before
+build work is authorized.
 
 ## Prepared By
 
@@ -10,7 +12,7 @@ Enterprise Architect Agent
 
 ## Reviewed By
 
-Governance Agent (future)
+Governance Agent
 
 ## Approved By
 
@@ -49,4 +51,5 @@ Human Decision Approver approves architecture approach and documented risks.
 
 ## Stop Condition
 
-Architecture lacks security model, ignores approved requirements, or risks are not documented.
+Architecture lacks security model, ignores approved requirements, or risks are not
+documented.

@@ -73,14 +73,14 @@ Closes #[issue-number]
 - [ ] Decision log updated if needed
 - [ ] Ready to merge
 
-## Framework Baseline v1.0 Review Checklist
+## Framework Review Checklist
 
 - [ ] Repository tree complete
 - [ ] README complete
-- [ ] Agent folders complete
+- [ ] Agent folders complete where applicable
 - [ ] Approval gates consistent
 - [ ] Policies linked to workflow
 - [ ] Decision logs complete
-- [ ] Governance Agent clearly identified as next step
+- [ ] Governance requirements addressed before Builder Agent work
 - [ ] No Builder Agent implementation added
 - [ ] Human Decision Approver approval captured

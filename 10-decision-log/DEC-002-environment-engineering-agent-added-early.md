@@ -26,21 +26,27 @@ Environment Engineering Agent
 
 ## Context
 
-Original agent topology placed specialist agents directly under the Enterprise Architect Agent without an explicit workspace preparation phase. Early implementations showed agents repeating questions and producing contradictory outputs.
+Original agent topology placed specialist agents directly under the Enterprise Architect
+Agent without an explicit workspace preparation phase. Early implementations showed
+agents repeating questions and producing contradictory outputs.
 
 ## Options Considered
 
 1. **Keep original topology** — Rejected: agents lack shared workspace
-2. **Add workspace setup as Enterprise Architect task** — Rejected: overloads orchestrator role
-3. **Add Environment Engineering Agent before specialist agents** — Selected: dedicated workspace preparation
+2. **Add workspace setup as Enterprise Architect task** — Rejected: overloads
+   orchestrator role
+3. **Add Environment Engineering Agent before specialist agents** — Selected: dedicated
+   workspace preparation
 
 ## Decision
 
-Environment Engineering Agent is added before Builder Agent and before full build execution.
+Environment Engineering Agent is added before Builder Agent and before full build
+execution.
 
 ## Reason
 
-GitHub, Figma, templates, project board, access, branch strategy, and CI/CD foundation must exist before reliable agent collaboration and implementation can begin.
+GitHub, Figma, templates, project board, access, branch strategy, and CI/CD foundation
+must exist before reliable agent collaboration and implementation can begin.
 
 ## Impact
 
@@ -51,4 +57,5 @@ GitHub, Figma, templates, project board, access, branch strategy, and CI/CD foun
 
 ## Follow-up Action
 
-Document Environment Engineering Agent in `06-agents/environment-engineering/` and update agent topology documents.
+Document Environment Engineering Agent in `06-agents/environment-engineering/` and
+update agent topology documents.

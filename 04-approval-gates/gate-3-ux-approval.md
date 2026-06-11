@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Confirm that personas, user journeys, task flows, information architecture, wireframes, sample data, and acceptance scenarios are approved before visual UI work begins.
+Confirm that personas, user journeys, task flows, information architecture, wireframes,
+sample data, and acceptance scenarios are approved before visual UI work begins.
 
 ## Prepared By
 
@@ -47,8 +48,10 @@ Human Decision Approver
 
 ## Proceed Condition
 
-Human Decision Approver approves UX wireframes and flows. UX/UI Agent may proceed to Mode 2 (Visual Design).
+Human Decision Approver approves UX wireframes and flows. UX/UI Agent may proceed to
+Mode 2 (Visual Design).
 
 ## Stop Condition
 
-Wireframes are missing, flows are incomplete, sample data is absent, or human cannot evaluate realistic screens.
+Wireframes are missing, flows are incomplete, sample data is absent, or human cannot
+evaluate realistic screens.

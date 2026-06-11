@@ -2,7 +2,8 @@
 
 ## Purpose
 
-The GitHub Project Board tracks work items through the full AI Engineering Crew workflow from intake to release.
+The GitHub Project Board tracks work items through the full AI Engineering Crew workflow
+from intake to release.
 
 ## Status Columns
 
@@ -54,4 +55,5 @@ Blocked
 
 ## Usage
 
-Move issues through columns as work progresses. Link issues to pull requests and markdown deliverables. Use labels for agent ownership and gate tracking.
+Move issues through columns as work progresses. Link issues to pull requests and
+markdown deliverables. Use labels for agent ownership and gate tracking.
