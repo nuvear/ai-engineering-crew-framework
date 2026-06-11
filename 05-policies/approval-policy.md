@@ -14,7 +14,8 @@ Deliverable | Prepared By | Reviewed By | Approved By
 | Product Plan | Product Manager Agent | Requirement Agent + Enterprise Architect Agent | Human |
 | UX Wireframes | UX/UI Agent | Product Manager Agent + Enterprise Architect Agent | Human |
 | UI Design | UX/UI Agent | Enterprise Architect Agent | Human |
-| Architecture Blueprint | Enterprise Architect Agent | Governance Agent (future) | Human |
+| Architecture Blueprint | Enterprise Architect Agent | Governance Agent | Human |
+| Governance Review | Governance Agent | Enterprise Architect Agent | Human |
 | Release | QA + DevOps + Documentation + Governance | Enterprise Architect Agent | Human |
 
 ## Approval Recording

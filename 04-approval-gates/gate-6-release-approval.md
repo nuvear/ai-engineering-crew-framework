@@ -6,7 +6,7 @@ Confirm that QA evidence, deployment readiness, documentation, and governance re
 
 ## Prepared By
 
-QA Agent, DevOps Agent, Documentation Agent, Governance Agent (future)
+QA Agent, DevOps Agent, Documentation Agent, Governance Agent
 
 ## Reviewed By
 
