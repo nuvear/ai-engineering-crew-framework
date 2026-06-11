@@ -59,7 +59,9 @@ If it is not tested, it should not be released.
 16. Handover contracts between agents
 17. Setup, test, and proceed workflow
 
-This baseline covers agent setup through **Step 6 (UX/UI Agent)**.
+This baseline documents agent setup through **Step 6 (UX/UI Agent)** in Framework Baseline v1.0.
+
+**Step 7 (Governance Agent)** is in active development on branch `feature/governance-agent-v1`. Builder Agent remains blocked until Governance Agent risk classification and Human Decision Approver acceptance are complete.
 
 ## Agent Setup Order
 
@@ -78,9 +80,11 @@ Step 11: DevOps Agent
 Step 12: Documentation Agent
 ```
 
-The repository currently documents the framework up to Step 6 and prepares the next step:
+The repository documents Steps 1–6 in `main` (Framework Baseline v1.0). Step 7 adds the Governance Agent and enterprise risk management framework.
 
-**Step 7 — Governance Agent Setup and Enterprise Risk Management Framework**
+**Step 7 — Governance Agent Setup and Enterprise Risk Management Framework** (in progress)
+
+Builder Agent (Step 8) must not begin until Governance Agent completes risk classification and the Human Decision Approver accepts governance conditions.
 
 ## Repository Structure
 
@@ -93,7 +97,7 @@ ai-engineering-crew-framework/
 ├── 03-workspace-architecture/    GitHub + Figma workspace design
 ├── 04-approval-gates/            Gates 0–6 approval checkpoints
 ├── 05-policies/                  Branching, PR, testing, traceability
-├── 06-agents/                    Agent definitions (5 agents)
+├── 06-agents/                    Agent definitions (6 agents with Step 7)
 ├── 07-templates/                 Reusable document templates
 ├── 08-reference-project/         Inventory management reference flow
 ├── 09-roadmap/                   Version roadmap and next steps
@@ -111,7 +115,7 @@ ai-engineering-crew-framework/
 | 3 | UX Approval | UX/UI Agent (Experience Design Mode) |
 | 4 | UI Approval | UX/UI Agent (Visual Design Mode) |
 | 5 | Architecture Approval | Enterprise Architect Agent |
-| 6 | Release Approval | QA, DevOps, Documentation, Governance (future) |
+| 6 | Release Approval | QA, DevOps, Documentation (future), Governance |
 
 See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full gate documentation.
 
@@ -119,7 +123,7 @@ See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full 
 
 1. **Read the vision** — Start with [00-vision/framework-charter.md](00-vision/framework-charter.md)
 2. **Understand the operating model** — Review [01-operating-model/](01-operating-model/)
-3. **Set up agents in order** — Follow Steps 1–6 in [06-agents/](06-agents/)
+3. **Set up agents in order** — Follow Steps 1–7 in [06-agents/](06-agents/)
 4. **Configure workspace** — Use [03-workspace-architecture/](03-workspace-architecture/)
 5. **Apply templates** — Use [07-templates/](07-templates/) for all deliverables
 6. **Walk the reference project** — Study [08-reference-project/](08-reference-project/) inventory management example
@@ -141,6 +145,7 @@ agent/requirement/REQ-001-inventory-requirements
 agent/product-manager/PROD-001-mvp-scope
 agent/ux-ui/UX-001-inventory-wireframes
 agent/environment-engineering/ENV-001-repository-setup
+agent/governance/GOV-001-risk-classification
 ```
 
 See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full branching rules.
@@ -149,8 +154,8 @@ See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full 
 
 | Version | Focus |
 |---|---|
-| v1.0 | Framework Baseline (current) |
-| v1.1 | Governance Agent |
+| v1.0 | Framework Baseline (merged) |
+| v1.1 | Governance Agent (in progress) |
 | v1.2 | Builder Agent |
 | v1.3 | Critic Agent |
 | v1.4 | QA Agent |
@@ -161,11 +166,15 @@ See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full 
 
 See [09-roadmap/framework-roadmap.md](09-roadmap/framework-roadmap.md) for details.
 
-## Next Step
+## Current Step
 
 **Step 7 — Governance Agent Setup and Enterprise Risk Management Framework**
 
-The Governance Agent will define risk classification, compliance requirements, approval workflow, auditability, AI usage policy, data governance, value-realization tracking, and release governance.
+The Governance Agent defines risk classification, compliance requirements, approval workflow, auditability, AI usage policy, data governance, value-realization tracking, and release governance.
+
+## After Step 7
+
+**Step 8 — Builder Agent** remains the next implementation phase but is blocked until governance approval is complete.
 
 ---
 

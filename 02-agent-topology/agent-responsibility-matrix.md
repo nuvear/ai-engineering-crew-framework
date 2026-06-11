@@ -44,3 +44,12 @@
 | Does Not Own | Product scope, architecture, code, final approval |
 | Key Output | UX plan, UI handover, Figma links |
 | Approval Required | Human (Gates 3 and 4) |
+
+## Governance Agent
+
+| Field | Description |
+|---|---|
+| Owns | Risk identification, risk classification, governance review, AI usage review, data governance review, audit evidence requirements, release governance support, value tracking, governance handovers |
+| Does Not Own | Final risk acceptance, budget approval, scope approval, architecture design, code implementation, final release go/no-go |
+| Key Output | Governance Review, Risk Classification, AI Usage Declaration, Data Classification, Governance-to-Builder Handover |
+| Approval Required | Human risk acceptance before Builder Agent begins |

@@ -2,11 +2,19 @@
 
 ## Purpose
 
-Confirm that QA evidence, deployment readiness, documentation, and governance review support a controlled release decision. This gate is documented for future baseline phases.
+Confirm that QA evidence, deployment readiness, documentation, and governance review support a controlled release decision.
+
+Gate 6 remains a future release execution gate, but Governance Agent now defines the governance evidence required for that gate.
 
 ## Prepared By
 
-QA Agent, DevOps Agent, Documentation Agent, Governance Agent
+Governance Agent (governance evidence definition)
+
+Future release execution contributors:
+
+- QA Agent
+- DevOps Agent
+- Documentation Agent
 
 ## Reviewed By
 
