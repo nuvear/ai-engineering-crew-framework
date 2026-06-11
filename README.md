@@ -128,9 +128,7 @@ See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full 
 
 ## Branch Naming Format
 
-Use this branch format for all agent deliverables.
-
-Important: keep placeholders inside a code block or backticks so Markdown renderers do not collapse `<agent-name>` and `<work-item-id>` into `agent//-short-description`.
+Use this branch format for all agent deliverables:
 
 ```text
 agent/<agent-name>/<work-item-id>-short-description
