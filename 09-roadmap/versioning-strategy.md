@@ -12,19 +12,20 @@ The AI Engineering Crew Framework uses semantic versioning for framework release
 
 ## Current Version
 
-**Framework Baseline v1.0** — Documents the framework through Step 6 (UX/UI Agent).
+**Current framework state** - Documents the framework through Step 8 (Builder Agent
+Setup).
 
 ## Version Alignment with Agent Setup
 
 | Framework Version | Agent Setup Step | Agent Added                                                                        |
 | ----------------- | ---------------- | ---------------------------------------------------------------------------------- |
-| v1.0              | Steps 1–6        | Enterprise Architect, Environment Engineering, Requirement, Product Manager, UX/UI |
+| v1.0              | Steps 1-6        | Enterprise Architect, Environment Engineering, Requirement, Product Manager, UX/UI |
 | v1.1              | Step 7           | Governance Agent                                                                   |
 | v1.2              | Step 8           | Builder Agent                                                                      |
-| v1.3              | Step 9           | Critic Agent                                                                       |
-| v1.4              | Step 10          | QA Agent                                                                           |
-| v1.5              | Step 11          | DevOps Agent                                                                       |
-| v1.6              | Step 12          | Documentation Agent                                                                |
+| v1.3              | Step 9           | Critic Agent (future)                                                              |
+| v1.4              | Step 10          | QA Agent (future)                                                                  |
+| v1.5              | Step 11          | DevOps Agent (future)                                                              |
+| v1.6              | Step 12          | Documentation Agent (future)                                                       |
 
 ## Project Versioning
 

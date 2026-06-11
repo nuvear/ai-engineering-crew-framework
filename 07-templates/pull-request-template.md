@@ -82,5 +82,6 @@ Closes #[issue-number]
 - [ ] Policies linked to workflow
 - [ ] Decision logs complete
 - [ ] Governance requirements addressed before Builder Agent work
-- [ ] No Builder Agent implementation added
+- [ ] No application implementation added without approved requirements and governance
+      acceptance
 - [ ] Human Decision Approver approval captured

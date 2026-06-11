@@ -18,17 +18,18 @@ Human decision check
 Approval readiness check
 ```
 
-## Future Code Deliverable Testing
+## Builder Code Deliverable Testing
 
-For future code deliverables, testing means:
+For Builder-controlled code deliverables, testing means:
 
 ```text
 Unit tests
 Build check
 Linting
 Security check
-QA review
 Architecture conformance review
+Governance condition review
+Traceability review
 ```
 
 ## When Testing Applies
@@ -41,4 +42,6 @@ Architecture conformance review
 | UX Wireframes             | Flow completeness, sample data, feature linkage        |
 | UI Design                 | Wireframe conformance, brand consistency               |
 | Architecture Blueprint    | Requirement coverage, NFR coverage, risk documentation |
-| Code (future)             | Unit tests, build, lint, security, QA                  |
+| Governance Review         | Risk coverage, control evidence, approval readiness    |
+| Builder Build Plan        | Traceability, testability, scope and governance checks |
+| Code (Builder-controlled) | Unit tests, build, lint, security, traceability        |

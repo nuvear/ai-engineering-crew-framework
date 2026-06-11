@@ -25,6 +25,12 @@ Product plan, MVP scope, roadmap, feature priority matrix, success metrics
 
 UX/UI Agent:
 Personas, user journeys, wireframes, Figma links, sample data, UI handover
+
+Governance Agent:
+Governance review, risk classification, AI usage declaration, data classification, governance handovers
+
+Builder Agent:
+Build plans, implementation tasks, files changed summary, test evidence, pull request summary, Builder-to-Critic handover
 ```
 
 ## Pull Request Requirements

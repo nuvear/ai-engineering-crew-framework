@@ -3,27 +3,29 @@
 ## Full Traceability Chain
 
 ```text
-Business Goal → Requirement → Feature → UX Flow → Architecture Decision → Build Item → Test Case → Release Evidence
+Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Decision -> Build Item -> Test Case -> Release Evidence
 ```
 
-## Baseline v1.0 Coverage
+## Current Coverage
 
-For Framework Baseline v1.0, traceability must cover:
+For the current framework state, traceability must cover:
 
 ```text
-Business Goal → Requirement → Feature → UX Flow → Architecture Handover
+Business Goal -> Requirement -> Feature -> UX Flow -> Architecture Handover -> Governance Control -> Build Item
 ```
 
 ## Traceability Requirements
 
-| Link                        | Requirement                                               |
-| --------------------------- | --------------------------------------------------------- |
-| Business Goal → Requirement | Every requirement ID references a business goal           |
-| Requirement → Feature       | Every feature ID references one or more requirement IDs   |
-| Feature → UX Flow           | Every user flow references product features               |
-| UX Flow → Architecture      | Architecture blueprint references approved UX/UI handover |
-| Build Item → Test Case      | Future: every build item has test cases (v1.4+)           |
-| Test Case → Release         | Future: release evidence links to test results (v1.6+)    |
+| Link                         | Requirement                                               |
+| ---------------------------- | --------------------------------------------------------- |
+| Business Goal -> Requirement | Every requirement ID references a business goal           |
+| Requirement -> Feature       | Every feature ID references one or more requirement IDs   |
+| Feature -> UX Flow           | Every user flow references product features               |
+| UX Flow -> Architecture      | Architecture blueprint references approved UX/UI handover |
+| Architecture -> Governance   | Governance review references approved architecture        |
+| Governance -> Build Item     | Every build item references governance conditions         |
+| Build Item -> Test Case      | Every build item has test expectations and evidence       |
+| Test Case -> Release         | Future: release evidence links to test results (v1.6+)    |
 
 ## Verification
 

@@ -12,7 +12,8 @@ Product Manager Agent -> UX/UI Agent
 UX/UI Agent -> Enterprise Architect Agent
 Enterprise Architect Agent -> Governance Agent
 Governance Agent -> Human Decision Approver
-Human Decision Approver -> Builder Agent (future, after governance acceptance)
+Human Decision Approver -> Builder Agent
+Builder Agent -> Critic Agent (future)
 ```
 
 ## Handover Details
@@ -28,12 +29,13 @@ Human Decision Approver -> Builder Agent (future, after governance acceptance)
 | UX/UI Agent                   | Enterprise Architect Agent    | UX/UI artifacts, Figma links, UX-to-Architecture Handover      |
 | Enterprise Architect Agent    | Governance Agent              | Architecture Blueprint, architecture constraints               |
 | Governance Agent              | Human Decision Approver       | Governance Review, Risk Classification, human decision package |
-| Human Decision Approver       | Builder Agent (future)        | Governance acceptance, authorized build scope                  |
+| Human Decision Approver       | Builder Agent                 | Governance acceptance, authorized build scope                  |
+| Builder Agent                 | Critic Agent (future)         | Pull request, test evidence, Builder-to-Critic handover        |
 
-## Active Step 7 Handover
+## Active Step 8 Handover
 
 ```text
-UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent (future)
+UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent -> Critic Agent (future)
 ```
 
 Builder Agent must not begin until Governance Agent completes risk classification and
@@ -41,9 +43,8 @@ the Human Decision Approver accepts governance conditions.
 
 ## Future Handovers
 
-After Governance Agent approval and Step 7 merge:
+After Builder Agent setup and Step 8 merge:
 
-- Builder Agent -> Critic Agent (code for review)
 - Critic Agent -> QA Agent (reviewed code for testing)
 - QA Agent -> DevOps Agent (tested code for deployment)
 - DevOps Agent -> Documentation Agent (deployed system for documentation)
