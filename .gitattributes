@@ -1,0 +1,4 @@
+# Enforce Unix line endings for framework documentation and GitHub metadata.
+*.md text eol=lf
+.github/** text eol=lf
+CODEOWNERS text eol=lf
