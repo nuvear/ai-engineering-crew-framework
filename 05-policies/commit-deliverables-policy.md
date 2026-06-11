@@ -31,6 +31,9 @@ Governance review, risk classification, AI usage declaration, data classificatio
 
 Builder Agent:
 Build plans, implementation tasks, files changed summary, test evidence, pull request summary, Builder-to-Critic handover
+
+Critic Agent:
+Critic review reports, traceability review, architecture conformance review, governance conformance review, findings, Critic-to-Builder feedback, Critic-to-QA handover
 ```
 
 ## Pull Request Requirements

@@ -55,3 +55,22 @@ implementation-support role that can begin implementation only after:
 - Human Decision Approver has accepted required governance conditions
 
 Builder Agent must not approve or merge its own pull request.
+
+## Critic Review Discipline
+
+Critic Agent setup does not create a new approval gate. It adds an independent review
+discipline between Builder Agent and future QA Agent.
+
+Critic Agent reviews Builder outputs for:
+
+- Requirement traceability
+- Product scope conformance
+- UX/UI handover conformance when applicable
+- Architecture conformance
+- Governance condition conformance
+- Code quality, maintainability, reliability, and security concerns
+- Test evidence sufficiency
+- Pull request readiness
+
+Critic review may block QA handover, but it does not replace Human Decision Approver
+approval and does not replace QA Agent execution.

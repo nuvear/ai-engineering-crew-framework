@@ -8,7 +8,7 @@ Level 2: Enterprise Architect Agent
 Level 3: Environment Engineering Agent
 Level 4: Planning and Design Agents
 Level 5: Governance Agent
-Level 6: Build Support Agent
+Level 6: Build and Review Agents
 Level 7: Validation, Deployment, and Knowledge Agents
 ```
 
@@ -53,13 +53,17 @@ Designs user experience and interface in two phases (UX then UI).
 Defines risk classification, governance controls, AI usage review, data governance
 review, release evidence expectations, and the human risk acceptance package.
 
-## Level 6: Build Support Agent (Step 8)
+## Level 6: Build and Review Agents (Steps 8-9)
 
 Builder Agent converts approved, governed work into build plans, implementation tasks,
 testable code changes, pull request summaries, and Builder-to-Critic handovers. It
 cannot approve or merge its own work.
 
+Critic Agent independently reviews Builder outputs for traceability, architecture
+conformance, governance conformance, code quality, maintainability, security,
+reliability, test evidence, and QA readiness. It cannot implement fixes, merge pull
+requests, deploy code, or replace QA Agent.
+
 ## Level 7: Validation, Deployment, and Knowledge Agents (Future)
 
-Critic Agent, QA Agent, DevOps Agent, and Documentation Agent - defined in roadmap v1.3
-through v1.6.
+QA Agent, DevOps Agent, and Documentation Agent - defined in roadmap v1.4 through v1.6.

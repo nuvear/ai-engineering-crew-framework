@@ -44,7 +44,7 @@ Builder Agent must receive:
 
 ### Builder-to-Critic Handover
 
-Builder Agent must provide the future Critic Agent with:
+Builder Agent must provide Critic Agent with:
 
 - Pull request link
 - Requirement IDs implemented
@@ -55,6 +55,10 @@ Builder Agent must provide the future Critic Agent with:
 - Test evidence
 - Known limitations and residual concerns
 - Areas requiring focused review
+
+Critic Agent uses this handover for independent review and may return required
+corrections through Critic-to-Builder feedback. Builder Agent remains responsible for
+implementing approved corrections; Critic Agent must not implement fixes.
 
 ## Stop Conditions
 

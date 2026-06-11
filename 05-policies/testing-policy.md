@@ -32,6 +32,12 @@ Governance condition review
 Traceability review
 ```
 
+## Critic Review Evidence
+
+Critic Agent reviews Builder test evidence for sufficiency before QA handover. Critic
+review may identify missing, weak, or insufficient Builder test evidence. QA execution
+remains a future QA Agent responsibility.
+
 ## When Testing Applies
 
 | Deliverable Type          | Testing Method                                         |
@@ -44,4 +50,5 @@ Traceability review
 | Architecture Blueprint    | Requirement coverage, NFR coverage, risk documentation |
 | Governance Review         | Risk coverage, control evidence, approval readiness    |
 | Builder Build Plan        | Traceability, testability, scope and governance checks |
+| Critic Review             | Traceability, conformance, test evidence, QA readiness |
 | Code (Builder-controlled) | Unit tests, build, lint, security, traceability        |

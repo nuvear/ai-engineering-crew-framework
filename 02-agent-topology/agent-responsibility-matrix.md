@@ -62,3 +62,12 @@
 | Does Not Own      | Business intent, scope approval, requirement approval, product priority, UX approval, architecture approval, governance risk acceptance, release approval, production deployment, final merge approval |
 | Key Output        | Build Plan, Implementation Task Breakdown, Test Evidence, Pull Request Summary, Builder-to-Critic Handover                                                                                             |
 | Approval Required | Approved requirements, approved scope, approved architecture, completed governance risk classification, and Human Decision Approver risk acceptance                                                    |
+
+## Critic Agent
+
+| Field             | Description                                                                                                                                                                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Owns              | Independent review of Builder outputs, requirement traceability review, architecture conformance review, governance conformance review, code quality findings, test evidence findings, Builder feedback, Critic-to-QA handover   |
+| Does Not Own      | Business intent, scope approval, requirement approval, product priority, UX approval, architecture approval, governance risk acceptance, code implementation, fix implementation, QA execution, deployment, final merge approval |
+| Key Output        | Critic Review Report, Finding Severity Classification, Required Builder Corrections, QA Readiness Recommendation, Critic-to-Builder Feedback, Critic-to-QA Handover                                                              |
+| Approval Required | Approved Builder handover, approved requirements, approved scope, approved architecture, completed governance classification, and Human Decision Approver governance acceptance                                                  |
