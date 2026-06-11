@@ -2,8 +2,8 @@
 name: Business Issue
 about: Track business intent work items in the AI Engineering Crew Framework
 title: "[BUSINESS] "
-labels: ["status: draft"]
-assignees: ''
+labels:
+  - "status: draft"
 ---
 
 ## Title
@@ -32,7 +32,7 @@ assignees: ''
 ## Decision Required
 
 - [ ] No human decision required
-- [ ] Yes — describe decision needed:
+- [ ] Yes - describe decision needed:
 
 ## Status
 

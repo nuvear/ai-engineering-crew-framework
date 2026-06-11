@@ -47,7 +47,7 @@ Closes #[issue-number]
 
 ## 6. Test Evidence
 
-- [ ] Not applicable — documentation only
+- [ ] Not applicable - documentation only
 - [ ] Manual review completed
 - [ ] Traceability check completed
 - [ ] Completeness check completed
@@ -64,7 +64,7 @@ Closes #[issue-number]
 ## 8. Human Decision Required
 
 - [ ] No
-- [ ] Yes — describe decision needed:
+- [ ] Yes - describe decision needed:
 
 ## 9. Approval Checklist
 
@@ -73,7 +73,7 @@ Closes #[issue-number]
 - [ ] Decision log updated if needed
 - [ ] Ready to merge
 
-## 10. Framework Baseline v1.0 Review Checklist
+## Framework Baseline v1.0 Review Checklist
 
 - [ ] Repository tree complete
 - [ ] README complete

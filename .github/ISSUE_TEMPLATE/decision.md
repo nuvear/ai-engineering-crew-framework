@@ -2,8 +2,8 @@
 name: Decision Issue
 about: Track decision work items in the AI Engineering Crew Framework
 title: "[DECISION] "
-labels: ["status: draft"]
-assignees: ''
+labels:
+  - "status: draft"
 ---
 
 ## Title
@@ -32,7 +32,7 @@ assignees: ''
 ## Decision Required
 
 - [ ] No human decision required
-- [ ] Yes — describe decision needed:
+- [ ] Yes - describe decision needed:
 
 ## Status
 

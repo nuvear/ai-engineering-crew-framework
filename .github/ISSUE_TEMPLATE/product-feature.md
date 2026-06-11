@@ -2,8 +2,8 @@
 name: Product Issue
 about: Track product feature work items in the AI Engineering Crew Framework
 title: "[PRODUCT] "
-labels: ["status: draft"]
-assignees: ''
+labels:
+  - "status: draft"
 ---
 
 ## Title
@@ -32,7 +32,7 @@ assignees: ''
 ## Decision Required
 
 - [ ] No human decision required
-- [ ] Yes — describe decision needed:
+- [ ] Yes - describe decision needed:
 
 ## Status
 

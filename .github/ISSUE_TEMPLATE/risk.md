@@ -2,8 +2,8 @@
 name: Risk Issue
 about: Track risk work items in the AI Engineering Crew Framework
 title: "[RISK] "
-labels: ["status: draft"]
-assignees: ''
+labels:
+  - "status: draft"
 ---
 
 ## Title
@@ -30,7 +30,7 @@ assignees: ''
 - [ ] Financial
 - [ ] Reputational
 - [ ] Delivery / Schedule
-- [ ] Other — describe:
+- [ ] Other - describe:
 
 ## Likelihood
 
@@ -46,7 +46,7 @@ assignees: ''
 
 ## Risk Score
 
-Use Likelihood × Impact (document the score and rationale):
+Use Likelihood x Impact (document the score and rationale):
 
 | Likelihood | Impact | Score | Rationale |
 |---|---|---|---|
@@ -62,19 +62,19 @@ Use Likelihood × Impact (document the score and rationale):
 
 ## Governance Gate Affected
 
-- [ ] Gate 0 — Environment Readiness
-- [ ] Gate 1 — Requirement Approval
-- [ ] Gate 2 — Product Scope Approval
-- [ ] Gate 3 — UX Approval
-- [ ] Gate 4 — UI Approval
-- [ ] Gate 5 — Architecture Approval
-- [ ] Gate 6 — Release Approval
+- [ ] Gate 0 - Environment Readiness
+- [ ] Gate 1 - Requirement Approval
+- [ ] Gate 2 - Product Scope Approval
+- [ ] Gate 3 - UX Approval
+- [ ] Gate 4 - UI Approval
+- [ ] Gate 5 - Architecture Approval
+- [ ] Gate 6 - Release Approval
 - [ ] Not gate-specific
 
 ## Release Blocker
 
 - [ ] No
-- [ ] Yes — release must not proceed until resolved or explicitly accepted
+- [ ] Yes - release must not proceed until resolved or explicitly accepted
 
 ## Related Artifact
 
@@ -94,7 +94,7 @@ Use Likelihood × Impact (document the score and rationale):
 ## Decision Required
 
 - [ ] No human decision required
-- [ ] Yes — describe decision needed:
+- [ ] Yes - describe decision needed:
 
 ## Status
 
