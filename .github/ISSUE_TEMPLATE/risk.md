@@ -2,7 +2,7 @@
 name: Risk Issue
 about: Track risk work items in the AI Engineering Crew Framework
 title: "[RISK] "
-labels: status: draft
+labels: ["status: draft"]
 assignees: ''
 ---
 
