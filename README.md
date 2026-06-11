@@ -128,15 +128,15 @@ ai-engineering-crew-framework/
 
 ## Approval Gates
 
-| Gate | Name                   | Prepared By                                    |
-| ---- | ---------------------- | ---------------------------------------------- |
-| 0    | Environment Readiness  | Environment Engineering Agent                  |
-| 1    | Requirement Approval   | Requirement Agent                              |
-| 2    | Product Scope Approval | Product Manager Agent                          |
-| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)           |
-| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)               |
-| 5    | Architecture Approval  | Enterprise Architect Agent                     |
-| 6    | Release Approval       | QA, DevOps, Documentation (future), Governance |
+| Gate | Name                   | Prepared By                                                                                                  |
+| ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------ |
+| 0    | Environment Readiness  | Environment Engineering Agent                                                                                |
+| 1    | Requirement Approval   | Requirement Agent                                                                                            |
+| 2    | Product Scope Approval | Product Manager Agent                                                                                        |
+| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)                                                                         |
+| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)                                                                             |
+| 5    | Architecture Approval  | Enterprise Architect Agent                                                                                   |
+| 6    | Release Approval       | Governance Agent for governance evidence; QA, DevOps, Documentation as future release execution contributors |
 
 See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full gate
 documentation.
