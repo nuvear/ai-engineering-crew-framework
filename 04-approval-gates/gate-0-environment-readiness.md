@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Confirm that GitHub, Figma, templates, labels, project board, branching strategy, CODEOWNERS, and agent workspace foundations are ready before requirement work begins.
+Confirm that GitHub, Figma, templates, labels, project board, branching strategy,
+CODEOWNERS, and agent workspace foundations are ready before requirement work begins.
 
 ## Prepared By
 

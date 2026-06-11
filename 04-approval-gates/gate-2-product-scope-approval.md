@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Confirm that MVP scope, feature prioritization, deferred items, success metrics, and trade-offs are documented before UX design begins.
+Confirm that MVP scope, feature prioritization, deferred items, success metrics, and
+trade-offs are documented before UX design begins.
 
 ## Prepared By
 

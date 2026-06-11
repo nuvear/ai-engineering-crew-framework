@@ -2,7 +2,8 @@
 
 ## Purpose
 
-This document defines what the Governance Agent receives, produces, and hands off to other agents and the Human Decision Approver.
+This document defines what the Governance Agent receives, produces, and hands off to
+other agents and the Human Decision Approver.
 
 ## Inputs Received
 
@@ -47,7 +48,8 @@ Provide the future Builder Agent with:
 - Evidence that must be captured during build
 - Explicit statement whether build is authorized
 
-Builder Agent must not begin unless this handover states build is authorized and the Human Decision Approver has accepted governance conditions.
+Builder Agent must not begin unless this handover states build is authorized and the
+Human Decision Approver has accepted governance conditions.
 
 ### Governance-to-Release Handover
 
@@ -64,24 +66,27 @@ Provide QA, DevOps, Documentation, and release reviewers with:
 Requirement Agent -> Product Manager Agent -> UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent (future)
 ```
 
-Governance Agent activates after architecture inputs are available for build-bound work, and before Builder Agent authorization.
+Governance Agent activates after architecture inputs are available for build-bound work,
+and before Builder Agent authorization.
 
 ## Approval Gates
 
 - Governance review supports architecture approval and release approval
-- Gate 6 (Release Approval) uses governance outputs defined in `release-governance-policy.md`
+- Gate 6 (Release Approval) uses governance outputs defined in
+  `release-governance-policy.md`
 - Human Decision Approver must explicitly accept risk before build authorization
 
 ## GitHub Commit Requirements
 
-No governance handover is official until committed to GitHub via pull request. Agent chat output is temporary until committed.
+No governance handover is official until committed to GitHub via pull request. Agent
+chat output is temporary until committed.
 
 ## Escalation Rules
 
-| Condition | Escalation |
-|---|---|
-| Level 4 Critical Risk identified | Immediate Human Decision Approver review |
-| Sensitive data without classification | Block build authorization |
-| AI usage outside approved boundaries | Block merge until declaration updated |
-| Missing audit evidence definition | Block release preparation |
-| Unaccepted residual risk at release | Block Gate 6 approval |
+| Condition                             | Escalation                               |
+| ------------------------------------- | ---------------------------------------- |
+| Level 4 Critical Risk identified      | Immediate Human Decision Approver review |
+| Sensitive data without classification | Block build authorization                |
+| AI usage outside approved boundaries  | Block merge until declaration updated    |
+| Missing audit evidence definition     | Block release preparation                |
+| Unaccepted residual risk at release   | Block Gate 6 approval                    |

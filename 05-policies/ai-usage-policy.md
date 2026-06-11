@@ -2,11 +2,14 @@
 
 ## Purpose
 
-Define practical boundaries for AI tool and agent use so the Human Decision Approver understands what AI is doing, what data it may access, and what decisions must remain human-owned.
+Define practical boundaries for AI tool and agent use so the Human Decision Approver
+understands what AI is doing, what data it may access, and what decisions must remain
+human-owned.
 
 ## Scope
 
-Applies to all AI Engineering Crew agents, AI-assisted development tools, and project workspaces documented in GitHub.
+Applies to all AI Engineering Crew agents, AI-assisted development tools, and project
+workspaces documented in GitHub.
 
 ## Principles
 
@@ -18,12 +21,12 @@ Every AI usage pattern must be documented and reviewable in GitHub.
 
 ## Allowed Uses
 
-| Use Category | Examples | Typical Risk Level |
-|---|---|---|
-| Documentation drafting | Requirements, plans, governance reviews | Level 1-2 |
-| Design support | Wireframes, UX narratives, handover notes | Level 2 |
-| Architecture analysis | Blueprint drafts, integration review | Level 2-3 |
-| Code assistance (future Builder phase) | Implementation under approved scope | Level 3-4 |
+| Use Category                           | Examples                                  | Typical Risk Level |
+| -------------------------------------- | ----------------------------------------- | ------------------ |
+| Documentation drafting                 | Requirements, plans, governance reviews   | Level 1-2          |
+| Design support                         | Wireframes, UX narratives, handover notes | Level 2            |
+| Architecture analysis                  | Blueprint drafts, integration review      | Level 2-3          |
+| Code assistance (future Builder phase) | Implementation under approved scope       | Level 3-4          |
 
 ## Prohibited Uses
 
@@ -37,7 +40,8 @@ Autonomous deployment or production changes without human approval
 
 ## AI Usage Declaration Requirement
 
-Every project must maintain an AI Usage Declaration using `07-templates/ai-usage-declaration-template.md`.
+Every project must maintain an AI Usage Declaration using
+`07-templates/ai-usage-declaration-template.md`.
 
 The declaration must list:
 

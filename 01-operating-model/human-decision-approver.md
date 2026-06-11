@@ -2,7 +2,9 @@
 
 ## Role Definition
 
-The Human Decision Approver is the business-oriented leader who owns intent, value, priority, risk, and final approval for the software solution. They are the Business Sponsor, Product Owner, Decision Approver, Value Owner, and Final Accountability Holder.
+The Human Decision Approver is the business-oriented leader who owns intent, value,
+priority, risk, and final approval for the software solution. They are the Business
+Sponsor, Product Owner, Decision Approver, Value Owner, and Final Accountability Holder.
 
 ## What the Human Owns
 
@@ -26,15 +28,15 @@ The human approves business decisions, not raw source code.
 
 Specifically, the human approves:
 
-| Decision Area | Example |
-|---|---|
-| Business intent | "Yes, build an inventory management system" |
-| Requirements | "These requirements capture what we need" |
-| Product scope | "This MVP scope is acceptable" |
-| UX wireframes | "These user flows work for our users" |
-| UI design | "This visual design matches our brand" |
-| Architecture | "This architecture approach is acceptable for our risk tolerance" |
-| Release | "We are ready to go live" |
+| Decision Area   | Example                                                           |
+| --------------- | ----------------------------------------------------------------- |
+| Business intent | "Yes, build an inventory management system"                       |
+| Requirements    | "These requirements capture what we need"                         |
+| Product scope   | "This MVP scope is acceptable"                                    |
+| UX wireframes   | "These user flows work for our users"                             |
+| UI design       | "This visual design matches our brand"                            |
+| Architecture    | "This architecture approach is acceptable for our risk tolerance" |
+| Release         | "We are ready to go live"                                         |
 
 ## What the Human Does Not Do
 
@@ -45,8 +47,12 @@ Specifically, the human approves:
 
 ## Decision Recording
 
-Every major human decision must be recorded in GitHub — either as an approval comment on a pull request, an issue status change, or a decision log entry.
+Every major human decision must be recorded in GitHub — either as an approval comment on
+a pull request, an issue status change, or a decision log entry.
 
 ## Relationship to Agents
 
-Agents prepare structured recommendations, trade-off analyses, and decision packages. The human evaluates these in business terms and approves, rejects, or requests revision. The human never needs to understand implementation details to make valid decisions — agents must explain technical concepts in business-friendly language first.
+Agents prepare structured recommendations, trade-off analyses, and decision packages.
+The human evaluates these in business terms and approves, rejects, or requests revision.
+The human never needs to understand implementation details to make valid decisions —
+agents must explain technical concepts in business-friendly language first.

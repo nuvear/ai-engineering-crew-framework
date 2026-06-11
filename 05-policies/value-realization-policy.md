@@ -2,11 +2,13 @@
 
 ## Purpose
 
-Ensure the Human Decision Approver can measure whether the solution delivers intended business value, not just technical completion.
+Ensure the Human Decision Approver can measure whether the solution delivers intended
+business value, not just technical completion.
 
 ## Principle
 
-Value must be defined before build, tracked after release, and reviewed in business terms the human understands.
+Value must be defined before build, tracked after release, and reviewed in business
+terms the human understands.
 
 ## Value Definition Requirements
 
@@ -26,35 +28,37 @@ Owner for value review
 Governance Agent prepares a value tracking section containing:
 
 | Metric | Business Goal | Baseline | Target | Data Source | Review Frequency | Owner |
-|---|---|---|---|---|---|---|
+| ------ | ------------- | -------- | ------ | ----------- | ---------------- | ----- |
 
 ## Example Metrics
 
-| Metric Type | Example |
-|---|---|
-| Efficiency | Time to complete inventory count |
-| Quality | Reduction in stock-out incidents |
-| Adoption | Active users per role |
-| Financial | Cost avoided or revenue protected |
+| Metric Type    | Example                                |
+| -------------- | -------------------------------------- |
+| Efficiency     | Time to complete inventory count       |
+| Quality        | Reduction in stock-out incidents       |
+| Adoption       | Active users per role                  |
+| Financial      | Cost avoided or revenue protected      |
 | Risk reduction | Number of manual reconciliation errors |
 
 ## Governance Review Points
 
-| Checkpoint | Value Question |
-|---|---|
-| After requirement approval | Is the business problem worth solving? |
-| After product scope approval | Is MVP scope sufficient to prove value? |
-| Before build authorization | Are success metrics measurable? |
-| Before release | Is value evidence plan ready? |
-| After release | Did the solution deliver expected value? |
+| Checkpoint                   | Value Question                           |
+| ---------------------------- | ---------------------------------------- |
+| After requirement approval   | Is the business problem worth solving?   |
+| After product scope approval | Is MVP scope sufficient to prove value?  |
+| Before build authorization   | Are success metrics measurable?          |
+| Before release               | Is value evidence plan ready?            |
+| After release                | Did the solution deliver expected value? |
 
 ## Human Decision Approver Role
 
-The human owns whether value targets are acceptable, whether partial value justifies release, and whether continued investment is warranted.
+The human owns whether value targets are acceptable, whether partial value justifies
+release, and whether continued investment is warranted.
 
 ## Link to Release Governance
 
-Gate 6 release approval should confirm that value realization tracking is defined and owned, even if full value results are measured post-release.
+Gate 6 release approval should confirm that value realization tracking is defined and
+owned, even if full value results are measured post-release.
 
 ## Evidence Requirements
 

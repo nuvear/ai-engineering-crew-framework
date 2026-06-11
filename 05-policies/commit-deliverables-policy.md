@@ -39,4 +39,5 @@ Every commit of agent deliverables must include:
 
 ## Traceability
 
-Every deliverable must trace to at least one of: business goal, requirement ID, decision record, or GitHub issue.
+Every deliverable must trace to at least one of: business goal, requirement ID, decision
+record, or GitHub issue.

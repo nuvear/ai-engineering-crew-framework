@@ -1,14 +1,13 @@
 # Architecture Blueprint
 
-File path:
-docs/05-architecture/ARCH-BLUEPRINT-[project-name].md
+File path: docs/05-architecture/ARCH-BLUEPRINT-[project-name].md
 
 ## 1. Executive Summary
 
 ## 2. Input Artifacts Used
 
 | Artifact | Location | Approval Gate |
-|---|---|---|
+| -------- | -------- | ------------- |
 
 ## 3. Solution Overview
 
@@ -25,14 +24,14 @@ docs/05-architecture/ARCH-BLUEPRINT-[project-name].md
 ## 9. Non-Functional Requirements
 
 | NFR ID | Category | Requirement | Approach |
-|---|---|---|---|
+| ------ | -------- | ----------- | -------- |
 
 ## 10. Technology Recommendations
 
 ## 11. Risks and Mitigations
 
 | Risk ID | Risk | Impact | Mitigation | Owner |
-|---|---|---|---|---|
+| ------- | ---- | ------ | ---------- | ----- |
 
 ## 12. Human Architecture Decisions Required
 

@@ -1,7 +1,6 @@
 # Governance Review
 
-File path:
-docs/06-governance/GOVERNANCE-REVIEW-[project-name].md
+File path: docs/06-governance/GOVERNANCE-REVIEW-[project-name].md
 
 ## 1. Review Summary
 
@@ -10,7 +9,7 @@ docs/06-governance/GOVERNANCE-REVIEW-[project-name].md
 ## 3. Artifacts Reviewed
 
 | Artifact | Location | Approved | Review Notes |
-|---|---|---|---|
+| -------- | -------- | -------- | ------------ |
 
 ## 4. Overall Risk Classification
 
@@ -22,37 +21,37 @@ docs/06-governance/GOVERNANCE-REVIEW-[project-name].md
 ## 5. Compliance Checklist
 
 | Area | Applicable | Status | Evidence | Gap |
-|---|---|---|---|---|
+| ---- | ---------- | ------ | -------- | --- |
 
 ## 6. AI Usage Summary
 
 | Tool / Agent | Purpose | Data Access | Status |
-|---|---|---|---|
+| ------------ | ------- | ----------- | ------ |
 
 ## 7. Data Governance Summary
 
 | Data Type | Classification | Handling Status | Human Approval Required |
-|---|---|---|---|
+| --------- | -------------- | --------------- | ----------------------- |
 
 ## 8. Audit Evidence Status
 
 | Required Evidence | Present | Location | Gap |
-|---|---|---|---|
+| ----------------- | ------- | -------- | --- |
 
 ## 9. Value Realization Summary
 
 | Metric | Target | Measurement Ready | Owner |
-|---|---|---|---|
+| ------ | ------ | ----------------- | ----- |
 
 ## 10. Human Decision Approver Decisions Required
 
 | Decision | Recommendation | Urgency |
-|---|---|---|
+| -------- | -------------- | ------- |
 
 ## 11. Escalations
 
 | Trigger | Action | Owner |
-|---|---|---|
+| ------- | ------ | ----- |
 
 ## 12. Governance Outcome
 
@@ -71,7 +70,7 @@ Conditions:
 
 ## 14. Review Record
 
-| Role | Name | Date |
-|---|---|---|
-| Prepared By | Governance Agent | |
-| Approved By | Human Decision Approver | |
+| Role        | Name                    | Date |
+| ----------- | ----------------------- | ---- |
+| Prepared By | Governance Agent        |      |
+| Approved By | Human Decision Approver |      |

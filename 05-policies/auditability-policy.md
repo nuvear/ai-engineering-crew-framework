@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Define what evidence must exist in GitHub so decisions, deliverables, approvals, and releases can be reviewed after the fact.
+Define what evidence must exist in GitHub so decisions, deliverables, approvals, and
+releases can be reviewed after the fact.
 
 ## Principle
 
@@ -28,15 +29,15 @@ Decision log entries
 
 ## Required Evidence by Phase
 
-| Phase | Minimum Evidence |
-|---|---|
-| Requirements | Requirement spec, acceptance criteria, approval record |
-| Product | Product plan, MVP scope, approval record |
-| UX/UI | UX plan, Figma links, approval record |
-| Architecture | Architecture blueprint, review notes, approval record |
-| Governance | Governance review, risk classification, risk acceptance |
-| Build (future) | PR history, linked issues, test evidence |
-| Release | Gate 6 checklist, release notes, rollback plan |
+| Phase          | Minimum Evidence                                        |
+| -------------- | ------------------------------------------------------- |
+| Requirements   | Requirement spec, acceptance criteria, approval record  |
+| Product        | Product plan, MVP scope, approval record                |
+| UX/UI          | UX plan, Figma links, approval record                   |
+| Architecture   | Architecture blueprint, review notes, approval record   |
+| Governance     | Governance review, risk classification, risk acceptance |
+| Build (future) | PR history, linked issues, test evidence                |
+| Release        | Gate 6 checklist, release notes, rollback plan          |
 
 ## Evidence Quality Rules
 
@@ -70,7 +71,8 @@ Recommended human decisions
 
 ## Retention
 
-Project audit evidence remains in GitHub for the life of the repository unless a separate retention policy applies. Do not rely on agent chat history as audit evidence.
+Project audit evidence remains in GitHub for the life of the repository unless a
+separate retention policy applies. Do not rely on agent chat history as audit evidence.
 
 ## Non-Compliance Escalation
 

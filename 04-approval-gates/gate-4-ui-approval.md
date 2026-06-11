@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Confirm that brand guidance, typography, color system, components, accessibility, high-fidelity screens, and developer handoff notes are approved before architecture finalization.
+Confirm that brand guidance, typography, color system, components, accessibility,
+high-fidelity screens, and developer handoff notes are approved before architecture
+finalization.
 
 ## Prepared By
 
@@ -45,8 +47,10 @@ Human Decision Approver
 
 ## Proceed Condition
 
-Human Decision Approver approves visual design. Enterprise Architect Agent may proceed with architecture using UI handover.
+Human Decision Approver approves visual design. Enterprise Architect Agent may proceed
+with architecture using UI handover.
 
 ## Stop Condition
 
-Visual design deviates from approved wireframes, brand is inconsistent, or developer handoff is incomplete.
+Visual design deviates from approved wireframes, brand is inconsistent, or developer
+handoff is incomplete.

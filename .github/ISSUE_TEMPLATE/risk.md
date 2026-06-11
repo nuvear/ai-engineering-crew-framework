@@ -3,8 +3,10 @@ name: Risk Issue
 about: Track risk work items in the AI Engineering Crew Framework
 title: "[RISK] "
 labels: ["status: draft"]
-assignees: ''
+assignees: ""
 ---
+
+# Risk Issue Template
 
 ## Title
 
@@ -48,8 +50,8 @@ assignees: ''
 
 Use Likelihood x Impact (document the score and rationale):
 
-| Likelihood | Impact | Score | Rationale |
-|---|---|---|---|
+| Likelihood        | Impact            | Score   | Rationale                     |
+| ----------------- | ----------------- | ------- | ----------------------------- |
 | [Low/Medium/High] | [Low/Medium/High] | [Score] | [Why this score was assigned] |
 
 ## Mitigation

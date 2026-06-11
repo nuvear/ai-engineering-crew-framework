@@ -19,8 +19,10 @@
 - Gate 0 (Environment Readiness) must be approved
 - Approved Requirement Specification must exist in GitHub
 - Approved Product Plan must exist in GitHub
-- Approved UX/UI handover must exist when user-facing or data-sensitive flows are involved
-- Approved Architecture Blueprint must exist before final governance sign-off for build authorization
+- Approved UX/UI handover must exist when user-facing or data-sensitive flows are
+  involved
+- Approved Architecture Blueprint must exist before final governance sign-off for build
+  authorization
 
 ## Governance Workspace Location
 

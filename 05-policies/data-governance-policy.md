@@ -2,29 +2,31 @@
 
 ## Purpose
 
-Help the Human Decision Approver understand what data the solution uses, how sensitive it is, and what handling rules apply before build and release.
+Help the Human Decision Approver understand what data the solution uses, how sensitive
+it is, and what handling rules apply before build and release.
 
 ## Scope
 
-Applies to all business data, user data, operational data, sample data, test data, and AI training or prompt context data used in the project.
+Applies to all business data, user data, operational data, sample data, test data, and
+AI training or prompt context data used in the project.
 
 ## Data Classification Levels
 
-| Level | Name | Description | Examples |
-|---|---|---|---|
-| D1 | Public | Safe for general sharing | Marketing copy, public docs |
-| D2 | Internal | Business use only | Internal process notes, drafts |
-| D3 | Confidential | Restricted business data | Customer lists, pricing, inventory levels |
-| D4 | Restricted | Highly sensitive or regulated | PII, financial records, health, credentials |
+| Level | Name         | Description                   | Examples                                    |
+| ----- | ------------ | ----------------------------- | ------------------------------------------- |
+| D1    | Public       | Safe for general sharing      | Marketing copy, public docs                 |
+| D2    | Internal     | Business use only             | Internal process notes, drafts              |
+| D3    | Confidential | Restricted business data      | Customer lists, pricing, inventory levels   |
+| D4    | Restricted   | Highly sensitive or regulated | PII, financial records, health, credentials |
 
 ## Handling Rules
 
-| Classification | Storage | Access | AI Usage | Sharing |
-|---|---|---|---|---|
-| D1 Public | GitHub allowed | Project team | Allowed with review | Allowed |
-| D2 Internal | GitHub with access control | Project team | Allowed with declaration | Internal only |
-| D3 Confidential | Controlled repositories | Need-to-know | Restricted, declared | Approval required |
-| D4 Restricted | Approved secure stores only | Named owners | Prohibited unless explicitly approved | Human Decision Approver approval |
+| Classification  | Storage                     | Access       | AI Usage                              | Sharing                          |
+| --------------- | --------------------------- | ------------ | ------------------------------------- | -------------------------------- |
+| D1 Public       | GitHub allowed              | Project team | Allowed with review                   | Allowed                          |
+| D2 Internal     | GitHub with access control  | Project team | Allowed with declaration              | Internal only                    |
+| D3 Confidential | Controlled repositories     | Need-to-know | Restricted, declared                  | Approval required                |
+| D4 Restricted   | Approved secure stores only | Named owners | Prohibited unless explicitly approved | Human Decision Approver approval |
 
 ## Sensitive Data Rules
 
@@ -64,7 +66,7 @@ The human must approve:
 ## Link to Risk Classification
 
 | Data Classification | Typical Project Risk Impact |
-|---|---|
-| D1-D2 only | Level 1-2 |
-| D3 present | Level 3 likely |
-| D4 present | Level 4 likely |
+| ------------------- | --------------------------- |
+| D1-D2 only          | Level 1-2                   |
+| D3 present          | Level 3 likely              |
+| D4 present          | Level 4 likely              |

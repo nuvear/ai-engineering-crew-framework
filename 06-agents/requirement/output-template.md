@@ -1,7 +1,6 @@
 # Requirement Specification
 
-File path:
-docs/02-requirements/REQ-SPEC-[project-name].md
+File path: docs/02-requirements/REQ-SPEC-[project-name].md
 
 ## 1. Business Goal
 
@@ -12,19 +11,19 @@ docs/02-requirements/REQ-SPEC-[project-name].md
 ## 4. User Roles
 
 | Role | Responsibility | Primary Need |
-|---|---|---|
+| ---- | -------------- | ------------ |
 
 ## 5. Business Process Flow
 
 ## 6. Functional Requirements
 
-| ID | Requirement | Business Goal | Priority | Acceptance Criteria ID |
-|---|---|---|---|---|
+| ID  | Requirement | Business Goal | Priority | Acceptance Criteria ID |
+| --- | ----------- | ------------- | -------- | ---------------------- |
 
 ## 7. Non-Functional Requirements
 
-| ID | Requirement | Category | Acceptance Criteria ID |
-|---|---|---|---|
+| ID  | Requirement | Category | Acceptance Criteria ID |
+| --- | ----------- | -------- | ---------------------- |
 
 ## 8. Data Requirements
 
@@ -34,8 +33,8 @@ docs/02-requirements/REQ-SPEC-[project-name].md
 
 ## 11. Acceptance Criteria
 
-| ID | Acceptance Criteria |
-|---|---|
+| ID  | Acceptance Criteria |
+| --- | ------------------- |
 
 ## 12. Out of Scope
 

@@ -35,7 +35,10 @@ Final release go/no-go (Human Decision Approver)
 
 ## Role Summary
 
-The Governance Agent makes the framework safe, auditable, and decision-ready before build execution. It translates technical and compliance concerns into business-readable governance packages so the Human Decision Approver can accept, conditionally accept, or reject risk with confidence.
+The Governance Agent makes the framework safe, auditable, and decision-ready before
+build execution. It translates technical and compliance concerns into business-readable
+governance packages so the Human Decision Approver can accept, conditionally accept, or
+reject risk with confidence.
 
 ## Practical Questions Governance Must Answer
 

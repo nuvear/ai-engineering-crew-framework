@@ -26,13 +26,15 @@ Product Manager Agent, Enterprise Architect Agent
 
 ## Context
 
-When UX and UI design happen simultaneously, visual polish can hide broken workflows. Humans approve screens that look good but have unusable flows.
+When UX and UI design happen simultaneously, visual polish can hide broken workflows.
+Humans approve screens that look good but have unusable flows.
 
 ## Options Considered
 
 1. **Combined UX/UI in single phase** — Rejected: visual design masks workflow problems
 2. **UX only, no UI phase** — Rejected: developers need visual design specifications
-3. **Two phases: Experience Design first, Visual Design second** — Selected: workflow validation before visual polish
+3. **Two phases: Experience Design first, Visual Design second** — Selected: workflow
+   validation before visual polish
 
 ## Decision
 
@@ -40,7 +42,8 @@ UX/UI Agent operates in two phases: Experience Design first, Visual Design secon
 
 ## Reason
 
-Wireframes and user flows must be approved before applying brand and high-fidelity UI design. This prevents premature visual design and reduces rework.
+Wireframes and user flows must be approved before applying brand and high-fidelity UI
+design. This prevents premature visual design and reduces rework.
 
 ## Impact
 
@@ -51,4 +54,5 @@ Wireframes and user flows must be approved before applying brand and high-fideli
 
 ## Follow-up Action
 
-Update approval gates, UX/UI Agent documentation, and test plans to enforce two-phase process.
+Update approval gates, UX/UI Agent documentation, and test plans to enforce two-phase
+process.

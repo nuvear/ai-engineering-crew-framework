@@ -6,15 +6,20 @@ MVP features F-001 through F-005 from the approved Product Plan.
 
 ## Personas
 
-**Maria — Business Owner:** Needs dashboard visibility, alert response, and reports. Uses the system 2–3 times daily.
+**Maria — Business Owner:** Needs dashboard visibility, alert response, and reports.
+Uses the system 2–3 times daily.
 
-**James — Warehouse Staff:** Needs fast stock movement recording and product lookup. Uses the system continuously during shifts.
+**James — Warehouse Staff:** Needs fast stock movement recording and product lookup.
+Uses the system continuously during shifts.
 
 ## User Journeys
 
-1. **Daily Stock Check:** James logs in → views stock dashboard → records receipt → system updates quantities
-2. **Low-Stock Response:** Maria sees alert on dashboard → reviews affected products → initiates reorder externally
-3. **Weekly Report:** Maria generates inventory report → filters by date → exports for review
+1. **Daily Stock Check:** James logs in → views stock dashboard → records receipt →
+   system updates quantities
+2. **Low-Stock Response:** Maria sees alert on dashboard → reviews affected products →
+   initiates reorder externally
+3. **Weekly Report:** Maria generates inventory report → filters by date → exports for
+   review
 
 ## Task Flows
 
@@ -45,19 +50,20 @@ Settings
 
 ## Screen Inventory
 
-| Screen | Feature | Priority |
-|---|---|---|
-| Dashboard | F-002, F-004 | Must |
-| Product List | F-001 | Must |
-| Product Detail | F-001 | Must |
-| Record Movement | F-003 | Must |
-| Movement History | F-003 | Must |
-| Alert Panel | F-004 | Must |
-| Inventory Report | F-005 | Must |
+| Screen           | Feature      | Priority |
+| ---------------- | ------------ | -------- |
+| Dashboard        | F-002, F-004 | Must     |
+| Product List     | F-001        | Must     |
+| Product Detail   | F-001        | Must     |
+| Record Movement  | F-003        | Must     |
+| Movement History | F-003        | Must     |
+| Alert Panel      | F-004        | Must     |
+| Inventory Report | F-005        | Must     |
 
 ## Wireframe Summary
 
-Low-fidelity wireframes created in Figma pages 04 (Wireframes) and 05 (Clickable Prototype). All screens populated with sample data.
+Low-fidelity wireframes created in Figma pages 04 (Wireframes) and 05 (Clickable
+Prototype). All screens populated with sample data.
 
 ## Sample Data
 
@@ -72,8 +78,10 @@ Low-fidelity wireframes created in Figma pages 04 (Wireframes) and 05 (Clickable
 
 ## User Acceptance Scenarios
 
-1. James records a stock receipt of 50 units for Product SKU-0042 and sees updated quantity on dashboard
-2. Maria views active alerts and acknowledges alert for Product SKU-0015 below reorder point
+1. James records a stock receipt of 50 units for Product SKU-0042 and sees updated
+   quantity on dashboard
+2. Maria views active alerts and acknowledges alert for Product SKU-0015 below reorder
+   point
 3. Maria generates inventory report filtered to last 7 days
 
 ## Figma Link
@@ -92,4 +100,6 @@ Figma project: Inventory Management System — pages 00–09 per standard struct
 
 ## UX-to-Architecture Handover
 
-Five primary screen groups map to five feature modules. Dashboard aggregates data from inventory and alert services. Movement form requires real-time stock validation. RBAC hides Settings from warehouse staff.
+Five primary screen groups map to five feature modules. Dashboard aggregates data from
+inventory and alert services. Movement form requires real-time stock validation. RBAC
+hides Settings from warehouse staff.

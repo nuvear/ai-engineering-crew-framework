@@ -10,7 +10,8 @@
 
 ## First Activation
 
-When activated by the Enterprise Architect Agent, the Environment Engineering Agent should:
+When activated by the Enterprise Architect Agent, the Environment Engineering Agent
+should:
 
 1. Create or configure the GitHub repository
 2. Set up Project Board with workflow columns

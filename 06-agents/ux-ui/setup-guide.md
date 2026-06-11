@@ -38,7 +38,8 @@ For the inventory management reference project, sample data should include:
 10 users across different roles
 ```
 
-Humans cannot properly evaluate UX using empty screens. Sample data makes flow testing realistic.
+Humans cannot properly evaluate UX using empty screens. Sample data makes flow testing
+realistic.
 
 ## Activation Prerequisites
 

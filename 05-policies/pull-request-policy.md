@@ -30,4 +30,6 @@ Use `.github/PULL_REQUEST_TEMPLATE.md` for all pull requests.
 
 ## Documentation PRs
 
-For documentation-only deliverables, test evidence includes traceability check, completeness check, contradiction check, scope creep check, and approval readiness check.
+For documentation-only deliverables, test evidence includes traceability check,
+completeness check, contradiction check, scope creep check, and approval readiness
+check.

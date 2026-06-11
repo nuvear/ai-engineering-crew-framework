@@ -2,7 +2,8 @@
 
 ## Purpose
 
-Confirm that business goals, user roles, requirement IDs, acceptance criteria, scope boundaries, and open questions are clear before product planning begins.
+Confirm that business goals, user roles, requirement IDs, acceptance criteria, scope
+boundaries, and open questions are clear before product planning begins.
 
 ## Prepared By
 
@@ -43,7 +44,8 @@ Human Decision Approver
 
 ## Proceed Condition
 
-Human Decision Approver approves the Requirement Specification and all open questions are resolved or explicitly deferred.
+Human Decision Approver approves the Requirement Specification and all open questions
+are resolved or explicitly deferred.
 
 ## Stop Condition
 
