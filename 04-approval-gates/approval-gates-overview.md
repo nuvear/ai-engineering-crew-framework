@@ -7,15 +7,15 @@ deliverables and makes go / no-go decisions before the project proceeds.
 
 ## Gate Summary
 
-| Gate | Name                   | Prepared By                                    | Approved By             |
-| ---- | ---------------------- | ---------------------------------------------- | ----------------------- |
-| 0    | Environment Readiness  | Environment Engineering Agent                  | Human Decision Approver |
-| 1    | Requirement Approval   | Requirement Agent                              | Human Decision Approver |
-| 2    | Product Scope Approval | Product Manager Agent                          | Human Decision Approver |
-| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)           | Human Decision Approver |
-| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)               | Human Decision Approver |
-| 5    | Architecture Approval  | Enterprise Architect Agent                     | Human Decision Approver |
-| 6    | Release Approval       | QA, DevOps, Documentation, Governance (future) | Human Decision Approver |
+| Gate | Name                   | Prepared By                                                                                                  | Approved By             |
+| ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------- |
+| 0    | Environment Readiness  | Environment Engineering Agent                                                                                | Human Decision Approver |
+| 1    | Requirement Approval   | Requirement Agent                                                                                            | Human Decision Approver |
+| 2    | Product Scope Approval | Product Manager Agent                                                                                        | Human Decision Approver |
+| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)                                                                         | Human Decision Approver |
+| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)                                                                             | Human Decision Approver |
+| 5    | Architecture Approval  | Enterprise Architect Agent                                                                                   | Human Decision Approver |
+| 6    | Release Approval       | Governance Agent for governance evidence; QA, DevOps, Documentation as future release execution contributors | Human Decision Approver |
 
 ## Gate Structure
 
