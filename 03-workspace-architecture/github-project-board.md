@@ -45,7 +45,7 @@ Blocked
 11. **Architecture Review** — Enterprise Architect preparing blueprint
 12. **Architecture Approval** — Human reviewing architecture (Gate 5)
 13. **Ready for Build** — All pre-build gates passed
-14. **Build in Progress** — Builder Agent (future)
+14. **Build in Progress** — Builder Agent
 15. **Critic Review** — Critic Agent (future)
 16. **QA Testing** — QA Agent (future)
 17. **Deployment Readiness** — DevOps Agent (future)

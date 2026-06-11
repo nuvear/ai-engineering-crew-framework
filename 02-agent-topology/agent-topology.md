@@ -41,17 +41,19 @@ Environment Engineering Agent and collaboration workspace established early:
 The revised topology inserts Environment Engineering Agent and the Collaboration
 Workspace (GitHub + Figma) before specialist planning and design agents activate.
 
-## Current Baseline Agents
+## Current Framework Agents
 
-| Agent                         | Layer         |
-| ----------------------------- | ------------- |
-| Enterprise Architect Agent    | Orchestration |
-| Environment Engineering Agent | Workspace     |
-| Requirement Agent             | Planning      |
-| Product Manager Agent         | Planning      |
-| UX/UI Agent                   | Design        |
+| Agent                         | Layer                  |
+| ----------------------------- | ---------------------- |
+| Enterprise Architect Agent    | Orchestration          |
+| Environment Engineering Agent | Workspace              |
+| Requirement Agent             | Planning               |
+| Product Manager Agent         | Planning               |
+| UX/UI Agent                   | Design                 |
+| Governance Agent              | Governance             |
+| Builder Agent                 | Implementation Support |
 
 ## Future Agents
 
-Governance, Builder, Critic, QA, DevOps, and Documentation agents are defined in the
-roadmap but not fully specified in v1.0.
+Critic, QA, DevOps, and Documentation agents remain future steps. Builder Agent hands
+off to the future Critic Agent after preparing traceable implementation pull requests.

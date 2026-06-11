@@ -2,41 +2,40 @@
 
 ## Current Work
 
-The current framework work is Step 7 — Governance Agent Setup and Enterprise Risk
-Management Framework.
+The current framework work is Step 8 — Builder Agent Setup.
 
-Step 7 adds the Governance Agent and defines:
+Step 8 adds the Builder Agent operating model and defines:
 
 ```text
-Risk classification
-Compliance requirements
-Approval workflow
-Auditability
-AI usage policy
-Data governance
-Value-realization tracking
-Release governance
+Build planning
+Implementation task breakdown
+Approved-scope code change control
+Requirement-to-code traceability
+Test evidence expectations
+Pull request discipline
+Builder-to-Critic handover
 ```
 
-## Step 7 Prerequisites
+## Step 8 Prerequisites
 
-Before beginning Governance Agent setup:
+Before beginning Builder Agent setup:
 
 - [ ] Framework Baseline v1.0 is committed and reviewed
-- [ ] All five baseline agents are configured and tested
+- [ ] Governance Agent v1.1 is merged
 - [ ] Reference project walkthrough is complete through Gate 5
-- [ ] Human Decision Approver has reviewed baseline documentation
+- [ ] Governance risk acceptance rules are documented
+- [ ] Human Decision Approver has reviewed governance controls
 
-## Step 7 Completion Criteria
+## Step 8 Completion Criteria
 
-- [ ] Governance Agent folder in `06-agents/governance/` is complete
-- [ ] Risk classification and risk register templates are complete
-- [ ] Gate 6 release approval evidence expectations are defined
-- [ ] AI usage policy is documented
-- [ ] Data governance policy is documented
-- [ ] Approval matrix includes governance review
-- [ ] Builder Agent remains blocked until governance approval is accepted
+- [ ] Builder Agent folder in `06-agents/builder/` is complete
+- [ ] Builder implementation policy is documented
+- [ ] Code change control policy is documented
+- [ ] Build plan and implementation task templates are complete
+- [ ] Builder-to-Critic handover is defined
+- [ ] Builder Agent cannot approve or merge its own pull request
+- [ ] Builder Agent remains blocked unless governance acceptance is recorded
 
 ## Next Phase
 
-After Step 7 is approved and merged, the next framework phase is Step 8 — Builder Agent.
+After Step 8 is approved and merged, the next framework phase is Step 9 — Critic Agent.

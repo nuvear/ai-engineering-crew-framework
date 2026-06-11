@@ -29,7 +29,7 @@ Architecture design (Enterprise Architect Agent)
 Product scope (Product Manager Agent)
 Requirements authoring (Requirement Agent)
 UX/UI design (UX/UI Agent)
-Code implementation (Builder Agent - future)
+Code implementation (Builder Agent)
 Final release go/no-go (Human Decision Approver)
 ```
 

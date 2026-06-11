@@ -40,7 +40,7 @@ Provide the Enterprise Architect Agent with:
 
 ### Governance-to-Builder Handover
 
-Provide the future Builder Agent with:
+Provide the Builder Agent with:
 
 - Authorized build scope boundaries
 - Required controls during implementation
@@ -63,7 +63,7 @@ Provide QA, DevOps, Documentation, and release reviewers with:
 ## Approval Workflow Position
 
 ```text
-Requirement Agent -> Product Manager Agent -> UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent (future)
+Requirement Agent -> Product Manager Agent -> UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent
 ```
 
 Governance Agent activates after architecture inputs are available for build-bound work,

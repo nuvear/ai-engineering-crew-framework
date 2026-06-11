@@ -1,9 +1,10 @@
 # End-to-End Workflow
 
-## Current Workflow (Baseline v1.0)
+## Current Workflow
 
-This documents the workflow up to and including UX/UI Agent and architecture handover
-preparation.
+This documents the workflow through Builder Agent setup as a governed implementation
+support operating model. It does not authorize application implementation without the
+required approvals and governance acceptance.
 
 ```text
 1. Human creates Business Intent.
@@ -18,6 +19,10 @@ preparation.
 10. UX/UI Agent applies brand guidance and creates UI.
 11. Human approves UI.
 12. Enterprise Architect Agent uses approved requirements, product plan, and UX/UI handover to prepare architecture.
+13. Human approves architecture.
+14. Governance Agent classifies risk and defines required controls.
+15. Human accepts, conditionally accepts, or rejects governance conditions.
+16. Builder Agent prepares governed build plans and implementation tasks only for approved, traceable work.
 ```
 
 ## Step-by-Step Detail
@@ -63,7 +68,20 @@ UI, components, and developer handoff. Human approves Gate 4.
 The Enterprise Architect Agent synthesizes approved requirements, product plan, and
 UX/UI handover into an architecture blueprint. Human approves Gate 5.
 
+### Step 13–15: Governance Review
+
+The Governance Agent classifies risk, defines required controls, and prepares the Human
+Decision Approver governance package. Builder Agent must not begin implementation until
+the Human Decision Approver accepts the required governance conditions.
+
+### Step 16: Builder Preparation
+
+The Builder Agent verifies approvals, prepares a Build Plan, breaks approved work into
+implementation tasks, documents traceability, and prepares pull request and
+Builder-to-Critic handover materials. Builder Agent must not approve, merge, or deploy
+its own work.
+
 ## Future Workflow Extensions
 
-After baseline v1.0, the workflow extends with Governance review, build, critic review,
-QA, DevOps deployment, documentation, and Gate 6 release approval.
+Future workflow extensions add Critic review, QA, DevOps deployment, documentation, and
+Gate 6 release approval.

@@ -47,9 +47,9 @@ If it is not approved, it should not be merged.
 If it is not tested, it should not be released.
 ```
 
-## Current Baseline Scope
+## Current Framework Scope
 
-**Framework Baseline v1.0** documents:
+The current framework documents:
 
 1. Human Decision Approver role
 2. AI Engineering Crew philosophy
@@ -68,14 +68,20 @@ If it is not tested, it should not be released.
 15. Decision log policy
 16. Handover contracts between agents
 17. Setup, test, and proceed workflow
+18. Governance Agent and enterprise risk management framework
+19. Builder Agent operating model
 
-This baseline documents agent setup through **Step 6 (UX/UI Agent)** in Framework
-Baseline v1.0.
+Framework Baseline v1.0 documents agent setup through **Step 6 (UX/UI Agent)**.
 
 **Step 7 (Governance Agent)** defines the governance and enterprise risk management
 framework required before Builder Agent begins. Builder Agent remains blocked until
 Governance Agent risk classification and Human Decision Approver acceptance are
 complete.
+
+**Step 8 (Builder Agent)** defines Builder Agent setup as a governed implementation
+support operating model only. It does not authorize application implementation without
+approved requirements, architecture, governance acceptance, testing expectations, and
+pull request review.
 
 ## Agent Setup Order
 
@@ -94,8 +100,8 @@ Step 11: DevOps Agent
 Step 12: Documentation Agent
 ```
 
-The repository documents Steps 1–7. Step 7 adds the Governance Agent and enterprise risk
-management framework.
+The repository documents Steps 1–8. Step 8 adds Builder Agent setup as governed
+implementation support.
 
 Builder Agent must not begin implementation unless Governance Agent has completed risk
 classification and the Human Decision Approver has accepted the required governance
@@ -112,7 +118,7 @@ ai-engineering-crew-framework/
 ├── 03-workspace-architecture/    GitHub + Figma workspace design
 ├── 04-approval-gates/            Gates 0–6 approval checkpoints
 ├── 05-policies/                  Branching, PR, testing, traceability
-├── 06-agents/                    Agent definitions (6 agents with Step 7)
+├── 06-agents/                    Agent definitions (7 agents through Step 8)
 ├── 07-templates/                 Reusable document templates
 ├── 08-reference-project/         Inventory management reference flow
 ├── 09-roadmap/                   Version roadmap and next steps
@@ -141,7 +147,7 @@ documentation.
    [00-vision/framework-charter.md](00-vision/framework-charter.md)
 2. **Understand the operating model** — Review
    [01-operating-model/](01-operating-model/)
-3. **Set up agents in order** — Follow Steps 1–7 in [06-agents/](06-agents/)
+3. **Set up agents in order** — Follow Steps 1–8 in [06-agents/](06-agents/)
 4. **Configure workspace** — Use
    [03-workspace-architecture/](03-workspace-architecture/)
 5. **Apply templates** — Use [07-templates/](07-templates/) for all deliverables
@@ -167,6 +173,7 @@ agent/product-manager/PROD-001-mvp-scope
 agent/ux-ui/UX-001-inventory-wireframes
 agent/environment-engineering/ENV-001-repository-setup
 agent/governance/GOV-001-risk-classification
+agent/builder/BUILD-001-approved-scope
 ```
 
 See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full
@@ -178,7 +185,7 @@ branching rules.
 | ------- | --------------------------- |
 | v1.0    | Framework Baseline (merged) |
 | v1.1    | Governance Agent            |
-| v1.2    | Builder Agent               |
+| v1.2    | Builder Agent (defined)     |
 | v1.3    | Critic Agent                |
 | v1.4    | QA Agent                    |
 | v1.5    | DevOps Agent                |
@@ -190,14 +197,15 @@ See [09-roadmap/framework-roadmap.md](09-roadmap/framework-roadmap.md) for detai
 
 ## Current Step
 
-Current completed step: **Step 7 — Governance Agent Setup and Enterprise Risk Management
-Framework**
+Current completed step: **Step 8 — Builder Agent Setup**
 
-Next step: **Step 8 — Builder Agent Setup**
+Next step: **Step 9 — Critic Agent Setup**
 
-The Governance Agent defines risk classification, compliance requirements, approval
-workflow, auditability, AI usage policy, data governance, value-realization tracking,
-and release governance.
+Builder Agent setup is complete only as an operating model. Actual implementation work
+still requires approved requirements, approved product scope, approved UX/UI handover
+when applicable, approved architecture, completed governance risk classification, Human
+Decision Approver acceptance of required governance conditions, testing expectations,
+and pull request review.
 
 Builder Agent must not begin implementation unless Governance Agent has completed risk
 classification and the Human Decision Approver has accepted the required governance

@@ -53,3 +53,12 @@
 | Does Not Own      | Final risk acceptance, budget approval, scope approval, architecture design, code implementation, final release go/no-go                                                                            |
 | Key Output        | Governance Review, Risk Classification, AI Usage Declaration, Data Classification, Governance-to-Builder Handover                                                                                   |
 | Approval Required | Human risk acceptance before Builder Agent begins                                                                                                                                                   |
+
+## Builder Agent
+
+| Field             | Description                                                                                                                                                                                            |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Owns              | Build plans, implementation task breakdowns, approved code changes, traceability notes, test evidence, pull request summaries, Builder-to-Critic handovers                                             |
+| Does Not Own      | Business intent, scope approval, requirement approval, product priority, UX approval, architecture approval, governance risk acceptance, release approval, production deployment, final merge approval |
+| Key Output        | Build Plan, Implementation Task Breakdown, Test Evidence, Pull Request Summary, Builder-to-Critic Handover                                                                                             |
+| Approval Required | Approved requirements, approved scope, approved architecture, completed governance risk classification, and Human Decision Approver risk acceptance                                                    |

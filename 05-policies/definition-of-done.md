@@ -72,3 +72,31 @@
 - [ ] Human architecture decisions documented
 - [ ] Committed to GitHub via pull request
 - [ ] Gate 5 approved
+
+## Governance Review
+
+- [ ] Based on approved requirements, product plan, UX/UI handover, and architecture
+- [ ] Risk classification completed
+- [ ] AI usage reviewed
+- [ ] Data governance reviewed
+- [ ] Required controls and evidence defined
+- [ ] Human Decision Approver risk acceptance recorded
+- [ ] Governance-to-Builder handover complete
+- [ ] Committed to GitHub via pull request
+
+## Builder Implementation Support
+
+- [ ] Linked approved requirement exists
+- [ ] Product scope approval exists
+- [ ] UX/UI handover exists when user experience is affected
+- [ ] Architecture approval exists
+- [ ] Governance risk classification exists
+- [ ] Human Decision Approver accepted required governance conditions
+- [ ] Build Plan complete
+- [ ] Implementation Task Breakdown complete
+- [ ] Requirement traceability documented
+- [ ] Tests added, updated, or documented with rationale
+- [ ] Files Changed Summary complete
+- [ ] Builder-to-Critic handover complete
+- [ ] Pull request summary complete
+- [ ] Builder Agent did not approve or merge its own pull request
