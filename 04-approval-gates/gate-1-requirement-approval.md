@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 1 (Requirement Approval) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-
+Confirm that business goals, user roles, requirement IDs, acceptance criteria, scope boundaries, and open questions are clear before product planning begins.
 
 ## Prepared By
 

@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 3 (UX Approval) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-
+Confirm that personas, user journeys, task flows, information architecture, wireframes, sample data, and acceptance scenarios are approved before visual UI work begins.
 
 ## Prepared By
 

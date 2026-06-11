@@ -1,4 +1,5 @@
 # AI Engineering Crew Framework
+
 ## Human Decision Approver + AI Engineering Crew Operating Model
 
 ## Purpose
@@ -123,7 +124,26 @@ See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full 
 5. **Apply templates** — Use [07-templates/](07-templates/) for all deliverables
 6. **Walk the reference project** — Study [08-reference-project/](08-reference-project/) inventory management example
 7. **Respect approval gates** — No phase proceeds without human approval
-8. **Commit everything to GitHub** — Use branch format `agent/<agent-name>/<work-item-id>-short-description`
+8. **Commit everything to GitHub** — Use the [branch naming format](#branch-naming-format) below
+
+## Branch Naming Format
+
+Use this branch format for all agent deliverables:
+
+```text
+agent/<agent-name>/<work-item-id>-short-description
+```
+
+Examples:
+
+```text
+agent/requirement/REQ-001-inventory-requirements
+agent/product-manager/PROD-001-mvp-scope
+agent/ux-ui/UX-001-inventory-wireframes
+agent/environment-engineering/ENV-001-repository-setup
+```
+
+See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full branching rules.
 
 ## Version Roadmap
 

@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 5 (Architecture Approval) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-
+Confirm that the architecture blueprint, security model, integration model, data considerations, non-functional requirements, and documented risks are approved before build work is authorized.
 
 ## Prepared By
 

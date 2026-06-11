@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 0 (Environment Readiness) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-
+Confirm that GitHub, Figma, templates, labels, project board, branching strategy, CODEOWNERS, and agent workspace foundations are ready before requirement work begins.
 
 ## Prepared By
 

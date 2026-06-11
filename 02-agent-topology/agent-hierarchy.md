@@ -34,12 +34,15 @@ UX/UI Agent
 ```
 
 ### Requirement Agent
+
 Converts business intent into structured requirements.
 
 ### Product Manager Agent
+
 Converts approved requirements into product plan and MVP scope.
 
 ### UX/UI Agent
+
 Designs user experience and interface in two phases (UX then UI).
 
 ## Level 5: Build and Review Agents (Future)

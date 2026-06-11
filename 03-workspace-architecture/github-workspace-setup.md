@@ -69,7 +69,13 @@ type: documentation
 
 ## Pull Requests
 
-All deliverables enter through pull requests using the PR template. Branch format: `agent/<agent-name>/<work-item-id>-short-description`.
+All deliverables enter through pull requests using the PR template.
+
+Branch format:
+
+```text
+agent/<agent-name>/<work-item-id>-short-description
+```
 
 ## Branch Protection
 

@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 4 (UI Approval) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-
+Confirm that brand guidance, typography, color system, components, accessibility, high-fidelity screens, and developer handoff notes are approved before architecture finalization.
 
 ## Prepared By
 

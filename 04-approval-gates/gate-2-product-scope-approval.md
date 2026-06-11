@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 2 (Product Scope Approval) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-
+Confirm that MVP scope, feature prioritization, deferred items, success metrics, and trade-offs are documented before UX design begins.
 
 ## Prepared By
 

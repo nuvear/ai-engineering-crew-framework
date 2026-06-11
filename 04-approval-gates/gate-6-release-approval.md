@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This gate ensures that all required artifacts, reviews, and human approvals are complete before the project proceeds to the next phase. Gate 6 (Release Approval) is a mandatory checkpoint in the AI Engineering Crew Framework.
-
-Gate 6 is documented for future baseline. It will be fully operational when QA, DevOps, Documentation, and Governance agents are added in framework versions v1.1 through v1.6.
+Confirm that QA evidence, deployment readiness, documentation, and governance review support a controlled release decision. This gate is documented for future baseline phases.
 
 ## Prepared By
 

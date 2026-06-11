@@ -9,6 +9,7 @@ All changes go through pull requests.
 Feature branches use the following format:
 
 agent/<agent-name>/<work-item-id>-short-description
+
 ```
 
 ## Branch Naming Examples
