@@ -72,3 +72,15 @@ Closes #[issue-number]
 - [ ] Traceability to requirement/business goal confirmed
 - [ ] Decision log updated if needed
 - [ ] Ready to merge
+
+## 10. Framework Baseline v1.0 Review Checklist
+
+- [ ] Repository tree complete
+- [ ] README complete
+- [ ] Agent folders complete
+- [ ] Approval gates consistent
+- [ ] Policies linked to workflow
+- [ ] Decision logs complete
+- [ ] Governance Agent clearly identified as next step
+- [ ] No Builder Agent implementation added
+- [ ] Human Decision Approver approval captured

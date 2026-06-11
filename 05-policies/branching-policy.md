@@ -18,7 +18,7 @@ agent/<agent-name>/<work-item-id>-short-description
 agent/requirement/REQ-001-inventory-requirements
 agent/product-manager/PROD-001-mvp-scope
 agent/ux-ui/UX-001-inventory-wireframes
-agent/environment/ENV-001-repository-setup
+agent/environment-engineering/ENV-001-repository-setup
 ```
 
 ## Branch Lifecycle
