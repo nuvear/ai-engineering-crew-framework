@@ -42,7 +42,7 @@ project-name/
 | `docs/06-governance/`         | Risk registers, compliance docs                                      |
 | `docs/07-build/`              | Build plans, implementation tasks, Builder handovers                 |
 | `docs/08-review/`             | Critic reviews, findings, QA readiness handovers                     |
-| `docs/09-qa/`                 | Test plans, test reports (future)                                    |
+| `docs/09-qa/`                 | QA test plans, test cases, defect reports, QA handovers              |
 | `docs/10-devops/`             | Deployment configs, CI/CD (future)                                   |
 | `docs/11-documentation/`      | User guides, API docs (future)                                       |
 | `docs/12-decision-log/`       | Decision records                                                     |

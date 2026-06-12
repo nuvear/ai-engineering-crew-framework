@@ -121,3 +121,28 @@
 - [ ] Critic Agent did not implement fixes
 - [ ] Critic Agent did not approve or merge the pull request
 - [ ] Critic Agent did not replace QA Agent
+
+## QA Independent Validation
+
+- [ ] Critic-to-QA handover exists
+- [ ] Critic review complete
+- [ ] No unresolved Level 3 or Level 4 Critic findings block QA
+- [ ] Approved requirements and acceptance criteria reviewed
+- [ ] Product scope conformance validated
+- [ ] UX acceptance scenarios validated when applicable
+- [ ] Architecture constraints relevant to validation reviewed
+- [ ] Governance conditions relevant to validation reviewed
+- [ ] QA Test Plan complete
+- [ ] Test Case Set complete
+- [ ] Test Execution Report complete
+- [ ] Acceptance Criteria Coverage Matrix complete
+- [ ] Defects documented and classified
+- [ ] Regression risk notes documented
+- [ ] Governance validation notes documented
+- [ ] QA pass/fail recommendation documented
+- [ ] QA-to-DevOps handover complete when ready for release preparation
+- [ ] QA Agent did not implement fixes
+- [ ] QA Agent did not merge pull requests
+- [ ] QA Agent did not deploy code
+- [ ] QA Agent did not approve final release
+- [ ] QA Agent did not replace Critic Agent

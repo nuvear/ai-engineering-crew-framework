@@ -12,8 +12,7 @@ The AI Engineering Crew Framework uses semantic versioning for framework release
 
 ## Current Version
 
-**Current framework state** - Documents the framework through Step 9 (Critic Agent
-Setup).
+**Current framework state** - Documents the framework through Step 10 (QA Agent Setup).
 
 ## Version Alignment with Agent Setup
 
@@ -23,7 +22,7 @@ Setup).
 | v1.1              | Step 7           | Governance Agent                                                                   |
 | v1.2              | Step 8           | Builder Agent                                                                      |
 | v1.3              | Step 9           | Critic Agent                                                                       |
-| v1.4              | Step 10          | QA Agent (future)                                                                  |
+| v1.4              | Step 10          | QA Agent                                                                           |
 | v1.5              | Step 11          | DevOps Agent (future)                                                              |
 | v1.6              | Step 12          | Documentation Agent (future)                                                       |
 

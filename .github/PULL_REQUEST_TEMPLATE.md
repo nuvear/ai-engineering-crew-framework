@@ -25,6 +25,8 @@
 - [ ] UI Design
 - [ ] Architecture Blueprint
 - [ ] Governance Review
+- [ ] QA Validation
+- [ ] Defect Report
 - [ ] Code
 - [ ] Test
 - [ ] Deployment
@@ -56,6 +58,7 @@ Closes #[issue-number]
 - [ ] Integration tests passed
 - [ ] Security review completed
 - [ ] QA review completed
+- [ ] QA validation evidence completed
 
 ## 7. Risk and Governance Notes
 
@@ -82,6 +85,7 @@ Closes #[issue-number]
 - [ ] Policies linked to workflow
 - [ ] Decision logs complete
 - [ ] Governance requirements addressed before Builder Agent work
+- [ ] QA validation requirements addressed before DevOps/release preparation
 - [ ] No application implementation added without approved requirements and governance
       acceptance
 - [ ] Human Decision Approver approval captured

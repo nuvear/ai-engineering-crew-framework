@@ -40,6 +40,10 @@ Critic Agent must independently review Builder Agent pull requests before QA han
 Critic Agent must not implement fixes, approve final merge, or merge the pull request it
 reviews.
 
+QA Agent must independently validate reviewed implementation work before future DevOps
+handover. QA Agent must not implement fixes, merge pull requests, deploy code, or
+approve final release.
+
 Implementation pull requests require review for:
 
 - Requirement traceability
@@ -47,6 +51,7 @@ Implementation pull requests require review for:
 - Architecture conformance
 - Governance condition conformance
 - Test evidence
+- QA validation evidence
 - Security and data handling concerns
 - Maintainability and reliability concerns
 - Human approval where required
@@ -54,7 +59,8 @@ Implementation pull requests require review for:
 ## Test Evidence
 
 Code changes must include test evidence appropriate to the work. If tests cannot be run
-or written, Builder Agent must document why and escalate before merge.
+or written, Builder Agent must document why and escalate before merge. QA Agent
+validates the sufficiency of test evidence after Critic review.
 
 ## Sensitive Data Control
 
@@ -63,5 +69,6 @@ classification and handling rules are approved.
 
 ## Merge Control
 
-Merge approval remains human-owned or assigned to an approved reviewer. Builder Agent
-may prepare the pull request, but it must not be the final approver.
+Merge approval remains human-owned or assigned to an approved reviewer. Builder Agent,
+Critic Agent, and QA Agent may prepare evidence, but they must not be the final approver
+for their own work.

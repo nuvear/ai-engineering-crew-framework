@@ -41,9 +41,16 @@ maintainability, security, reliability, test evidence, pull request readiness, a
 handover readiness. It cannot implement fixes, merge pull requests, deploy code, approve
 final release, or replace QA Agent.
 
-## v1.4 - QA Agent (Future)
+## v1.4 - QA Agent
 
-Test planning, test execution, acceptance criteria validation, and test reporting.
+QA Agent is defined as independent validation before DevOps. It validates reviewed
+Builder output after Critic review for approved requirement acceptance criteria, product
+scope conformance, UX/UI acceptance scenarios when applicable, architecture constraints,
+governance conditions, functional correctness, regression risk, edge cases, negative
+paths, test coverage sufficiency, defect evidence, release validation readiness, and
+QA-to-DevOps handover readiness. It cannot implement fixes, merge pull requests, deploy
+code, approve final release, or replace Critic Agent, DevOps Agent, Governance Agent, or
+Human Decision Approver approval.
 
 ## v1.5 - DevOps Agent (Future)
 

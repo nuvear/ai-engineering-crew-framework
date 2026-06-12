@@ -38,6 +38,16 @@ notes, and QA readiness.
 Critic Agent must not implement fixes, approve final merge, or merge the pull request it
 reviews.
 
+## QA Validation Discipline
+
+Implementation pull requests that pass Critic review require QA validation before future
+DevOps or release preparation. QA Agent validates acceptance criteria coverage,
+functional behavior, regression risk, edge cases, negative paths, governance validation
+checks, defect evidence, and release validation readiness.
+
+QA Agent must not implement fixes, merge pull requests, deploy code, or approve final
+release.
+
 ## Documentation PRs
 
 For documentation-only deliverables, test evidence includes traceability check,

@@ -47,7 +47,7 @@ Blocked
 13. **Ready for Build** - All pre-build gates passed
 14. **Build in Progress** - Builder Agent
 15. **Critic Review** - Critic Agent
-16. **QA Testing** - QA Agent (future)
+16. **QA Testing** - QA Agent
 17. **Deployment Readiness** - DevOps Agent (future)
 18. **Release Approval** - Human final approval (Gate 6)
 19. **Released** - Solution live

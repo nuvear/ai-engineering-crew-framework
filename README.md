@@ -71,6 +71,7 @@ The current framework documents:
 18. Governance Agent and enterprise risk management framework
 19. Builder Agent operating model
 20. Critic Agent independent review operating model
+21. QA Agent independent validation operating model
 
 Framework Baseline v1.0 documents agent setup through **Step 6 (UX/UI Agent)**.
 
@@ -89,6 +90,11 @@ model only. It reviews Builder Agent outputs before QA handover, but it does not
 implement fixes, replace QA Agent, approve final release, merge pull requests, or
 replace Human Decision Approver approval.
 
+**Step 10 (QA Agent)** defines QA Agent setup as an independent validation operating
+model only. It validates reviewed Builder output after Critic review and before future
+DevOps preparation, but it does not replace Critic Agent, DevOps Agent, Governance
+Agent, or Human Decision Approver approval.
+
 ## Agent Setup Order
 
 ```text
@@ -106,8 +112,8 @@ Step 11: DevOps Agent
 Step 12: Documentation Agent
 ```
 
-The repository documents Steps 1-9. Step 9 adds Critic Agent setup as independent review
-before QA handover.
+The repository documents Steps 1-10. Step 10 adds QA Agent setup as independent
+validation after Critic review.
 
 Builder Agent must not begin implementation unless Governance Agent has completed risk
 classification and the Human Decision Approver has accepted the required governance
@@ -115,6 +121,9 @@ conditions.
 
 Critic Agent must not implement fixes, approve final merge, deploy code, or replace QA
 Agent.
+
+QA Agent must not implement fixes, merge pull requests, deploy code, approve final
+release, or replace Human Decision Approver approval.
 
 ## Repository Structure
 
@@ -127,7 +136,7 @@ ai-engineering-crew-framework/
 |-- 03-workspace-architecture/    GitHub + Figma workspace design
 |-- 04-approval-gates/            Gates 0-6 approval checkpoints
 |-- 05-policies/                  Branching, PR, testing, traceability
-|-- 06-agents/                    Agent definitions (8 agents through Step 9)
+|-- 06-agents/                    Agent definitions (9 agents through Step 10)
 |-- 07-templates/                 Reusable document templates
 |-- 08-reference-project/         Inventory management reference flow
 |-- 09-roadmap/                   Version roadmap and next steps
@@ -137,15 +146,15 @@ ai-engineering-crew-framework/
 
 ## Approval Gates
 
-| Gate | Name                   | Prepared By                                                                                                  |
-| ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------ |
-| 0    | Environment Readiness  | Environment Engineering Agent                                                                                |
-| 1    | Requirement Approval   | Requirement Agent                                                                                            |
-| 2    | Product Scope Approval | Product Manager Agent                                                                                        |
-| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)                                                                         |
-| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)                                                                             |
-| 5    | Architecture Approval  | Enterprise Architect Agent                                                                                   |
-| 6    | Release Approval       | Governance Agent for governance evidence; QA, DevOps, Documentation as future release execution contributors |
+| Gate | Name                   | Prepared By                                                                                                                                   |
+| ---- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0    | Environment Readiness  | Environment Engineering Agent                                                                                                                 |
+| 1    | Requirement Approval   | Requirement Agent                                                                                                                             |
+| 2    | Product Scope Approval | Product Manager Agent                                                                                                                         |
+| 3    | UX Approval            | UX/UI Agent (Experience Design Mode)                                                                                                          |
+| 4    | UI Approval            | UX/UI Agent (Visual Design Mode)                                                                                                              |
+| 5    | Architecture Approval  | Enterprise Architect Agent                                                                                                                    |
+| 6    | Release Approval       | Governance Agent for governance evidence; QA Agent for validation evidence; DevOps and Documentation as future release execution contributors |
 
 See [04-approval-gates/](04-approval-gates/approval-gates-overview.md) for full gate
 documentation.
@@ -156,7 +165,7 @@ documentation.
    [00-vision/framework-charter.md](00-vision/framework-charter.md)
 2. **Understand the operating model** - Review
    [01-operating-model/](01-operating-model/)
-3. **Set up agents in order** - Follow Steps 1-9 in [06-agents/](06-agents/)
+3. **Set up agents in order** - Follow Steps 1-10 in [06-agents/](06-agents/)
 4. **Configure workspace** - Use
    [03-workspace-architecture/](03-workspace-architecture/)
 5. **Apply templates** - Use [07-templates/](07-templates/) for all deliverables
@@ -184,6 +193,7 @@ agent/environment-engineering/ENV-001-repository-setup
 agent/governance/GOV-001-risk-classification
 agent/builder/BUILD-001-approved-scope
 agent/critic/CRITIC-001-independent-review
+agent/qa/QA-001-validation-evidence
 ```
 
 See [05-policies/branching-policy.md](05-policies/branching-policy.md) for full
@@ -197,7 +207,7 @@ branching rules.
 | v1.1    | Governance Agent            |
 | v1.2    | Builder Agent (defined)     |
 | v1.3    | Critic Agent (defined)      |
-| v1.4    | QA Agent                    |
+| v1.4    | QA Agent (defined)          |
 | v1.5    | DevOps Agent                |
 | v1.6    | Documentation Agent         |
 | v1.7    | Multi-Agent Workflow        |
@@ -207,9 +217,9 @@ See [09-roadmap/framework-roadmap.md](09-roadmap/framework-roadmap.md) for detai
 
 ## Current Step
 
-Current completed step: **Step 9 - Critic Agent Setup**
+Current completed step: **Step 10 - QA Agent Setup**
 
-Next step: **Step 10 - QA Agent Setup**
+Next step: **Step 11 - DevOps Agent Setup**
 
 Builder Agent setup is complete only as an operating model. Actual implementation work
 still requires approved requirements, approved product scope, approved UX/UI handover
@@ -221,10 +231,14 @@ Builder Agent must not begin implementation unless Governance Agent has complete
 classification and the Human Decision Approver has accepted the required governance
 conditions.
 
-Critic Agent setup is complete only as an operating model. QA Agent is not yet
-implemented. Critic Agent reviews Builder output before QA handover, but it does not
-replace QA Agent, implement fixes, approve final release, merge pull requests, or
-replace Human Decision Approver approval.
+Critic Agent setup is complete only as an operating model. Critic Agent reviews Builder
+output before QA validation, but it does not replace QA Agent, implement fixes, approve
+final release, merge pull requests, or replace Human Decision Approver approval.
+
+QA Agent setup is complete only as an operating model. DevOps Agent is not yet
+implemented. QA Agent validates after Critic review, but it does not replace Critic
+Agent, DevOps Agent, Governance Agent, or Human Decision Approver approval. QA Agent
+cannot implement fixes, merge pull requests, deploy code, or approve final release.
 
 ---
 

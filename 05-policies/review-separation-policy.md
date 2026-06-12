@@ -11,7 +11,7 @@ Agent, and Human Decision Approver.
 | ----------------------- | ----------------------------- | ----------------------------------------------- |
 | Builder Agent           | Approved-scope implementation | Independent review, final merge approval        |
 | Critic Agent            | Independent review findings   | Fix implementation, QA execution, final release |
-| QA Agent (future)       | QA planning and execution     | Builder fixes, final business approval          |
+| QA Agent                | Independent validation        | Builder fixes, deployment, final release        |
 | Human Decision Approver | Final approval and risk       | Agent execution details                         |
 
 ## Builder And Critic Separation
@@ -22,9 +22,15 @@ corrections it requests.
 
 ## Critic And QA Separation
 
-Critic Agent reviews readiness for QA. QA Agent performs QA execution in a future step.
-Critic Agent does not replace QA test planning, QA execution, acceptance validation, or
-QA reporting.
+Critic Agent reviews readiness for QA. QA Agent performs independent validation after
+Critic review. Critic Agent does not replace QA test planning, QA execution, acceptance
+validation, or QA reporting.
+
+## QA And DevOps Separation
+
+QA Agent validates release readiness and prepares QA-to-DevOps handover. DevOps Agent is
+a future deployment preparation role. QA Agent must not deploy code or replace DevOps
+responsibilities.
 
 ## Human Approval Separation
 

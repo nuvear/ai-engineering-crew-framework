@@ -2,10 +2,10 @@
 
 ## Current Workflow
 
-This documents the workflow through Critic Agent setup as an independent review
-operating model. It does not authorize application implementation without the required
-approvals, governance acceptance, Builder discipline, Critic review, and pull request
-controls.
+This documents the workflow through QA Agent setup as an independent validation
+operating model. It does not authorize application implementation or release without the
+required approvals, governance acceptance, Builder discipline, Critic review, QA
+validation, pull request controls, and Human Decision Approver release approval.
 
 ```text
 1. Human creates Business Intent.
@@ -25,6 +25,7 @@ controls.
 15. Human accepts, conditionally accepts, or rejects governance conditions.
 16. Builder Agent prepares governed build plans and implementation tasks only for approved, traceable work.
 17. Critic Agent independently reviews Builder Agent outputs before QA handover.
+18. QA Agent validates reviewed implementation work before future DevOps preparation.
 ```
 
 ## Step-by-Step Detail
@@ -95,7 +96,21 @@ Critic Agent may send required corrections back to Builder Agent or prepare a
 Critic-to-QA handover when findings do not block QA readiness. Critic Agent must not
 implement fixes, approve final merge, deploy code, or replace QA Agent.
 
+### Step 18: QA Validation
+
+The QA Agent validates reviewed implementation work after Critic Agent review. QA
+validates approved requirement acceptance criteria, product scope conformance, UX/UI
+acceptance scenarios when applicable, architecture constraints relevant to behavior,
+governance conditions, functional correctness, regression risk, edge cases, negative
+paths, test coverage sufficiency, defect evidence, release validation readiness, and
+QA-to-DevOps handover readiness.
+
+QA Agent may send defects back to Builder Agent when correction is required or prepare a
+QA-to-DevOps handover when QA findings do not block release preparation. QA Agent must
+not implement fixes, merge pull requests, deploy code, approve final release, or replace
+Critic Agent, DevOps Agent, Governance Agent, or Human Decision Approver approval.
+
 ## Future Workflow Extensions
 
-Future workflow extensions add QA, DevOps deployment, documentation, and Gate 6 release
+Future workflow extensions add DevOps deployment, documentation, and Gate 6 release
 approval.

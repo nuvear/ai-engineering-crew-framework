@@ -14,7 +14,8 @@ Enterprise Architect Agent -> Governance Agent
 Governance Agent -> Human Decision Approver
 Human Decision Approver -> Builder Agent
 Builder Agent -> Critic Agent
-Critic Agent -> QA Agent (future)
+Critic Agent -> QA Agent
+QA Agent -> DevOps Agent (future)
 ```
 
 ## Handover Details
@@ -32,12 +33,13 @@ Critic Agent -> QA Agent (future)
 | Governance Agent              | Human Decision Approver       | Governance Review, Risk Classification, human decision package |
 | Human Decision Approver       | Builder Agent                 | Governance acceptance, authorized build scope                  |
 | Builder Agent                 | Critic Agent                  | Pull request, test evidence, Builder-to-Critic handover        |
-| Critic Agent                  | QA Agent (future)             | Critic Review Report, Critic-to-QA handover                    |
+| Critic Agent                  | QA Agent                      | Critic Review Report, Critic-to-QA handover                    |
+| QA Agent                      | DevOps Agent (future)         | QA Test Report, QA-to-DevOps handover                          |
 
-## Active Step 9 Handover
+## Active Step 10 Handover
 
 ```text
-UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent -> Critic Agent -> QA Agent (future)
+UX/UI Agent -> Enterprise Architect Agent -> Governance Agent -> Human Decision Approver -> Builder Agent -> Critic Agent -> QA Agent -> DevOps Agent (future)
 ```
 
 Builder Agent must not begin until Governance Agent completes risk classification and
@@ -46,9 +48,14 @@ the Human Decision Approver accepts governance conditions.
 Critic Agent reviews Builder Agent outputs before QA handover. Critic Agent must not
 implement fixes, merge pull requests, deploy code, or replace QA Agent.
 
+QA Agent validates reviewed implementation work after Critic review and before future
+DevOps handover. QA Agent must not implement fixes, merge pull requests, deploy code,
+approve final release, or replace Critic Agent, DevOps Agent, Governance Agent, or Human
+Decision Approver approval.
+
 ## Future Handovers
 
-After Critic Agent setup and Step 9 merge:
+After QA Agent setup and Step 10 merge:
 
 - QA Agent -> DevOps Agent (tested code for deployment)
 - DevOps Agent -> Documentation Agent (deployed system for documentation)

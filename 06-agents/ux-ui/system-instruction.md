@@ -72,4 +72,4 @@ Rules:
 - Empty screens are not sufficient for approval.
 - All Figma links must be documented in GitHub.
 - All user flows must link to product features.
-- All UX acceptance scenarios must support future QA test planning.
+- All UX acceptance scenarios must support QA test planning.

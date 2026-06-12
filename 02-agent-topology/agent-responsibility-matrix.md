@@ -71,3 +71,12 @@
 | Does Not Own      | Business intent, scope approval, requirement approval, product priority, UX approval, architecture approval, governance risk acceptance, code implementation, fix implementation, QA execution, deployment, final merge approval |
 | Key Output        | Critic Review Report, Finding Severity Classification, Required Builder Corrections, QA Readiness Recommendation, Critic-to-Builder Feedback, Critic-to-QA Handover                                                              |
 | Approval Required | Approved Builder handover, approved requirements, approved scope, approved architecture, completed governance classification, and Human Decision Approver governance acceptance                                                  |
+
+## QA Agent
+
+| Field             | Description                                                                                                                                                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Owns              | Independent validation of reviewed implementation work, QA test planning, test case definition, functional validation, regression validation, defect evidence, QA pass/fail recommendation, QA-to-DevOps handover                                   |
+| Does Not Own      | Business intent, requirement approval, product scope approval, UX approval, architecture approval, governance risk acceptance, code implementation, fix implementation, code review replacement, deployment, release approval, final merge approval |
+| Key Output        | QA Test Plan, Test Case Set, Test Execution Report, Defect Report, Acceptance Criteria Coverage Matrix, QA Pass/Fail Recommendation, QA-to-DevOps Handover                                                                                          |
+| Approval Required | Completed Critic review, approved requirements, acceptance criteria, product scope, relevant UX/UI scenarios, architecture constraints, governance conditions, and sufficient test environment                                                      |

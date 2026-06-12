@@ -9,7 +9,8 @@ Level 3: Environment Engineering Agent
 Level 4: Planning and Design Agents
 Level 5: Governance Agent
 Level 6: Build and Review Agents
-Level 7: Validation, Deployment, and Knowledge Agents
+Level 7: Validation Agent
+Level 8: Deployment and Knowledge Agents
 ```
 
 ## Level 1: Human Decision Approver
@@ -64,6 +65,15 @@ conformance, governance conformance, code quality, maintainability, security,
 reliability, test evidence, and QA readiness. It cannot implement fixes, merge pull
 requests, deploy code, or replace QA Agent.
 
-## Level 7: Validation, Deployment, and Knowledge Agents (Future)
+## Level 7: Validation Agent (Step 10)
 
-QA Agent, DevOps Agent, and Documentation Agent - defined in roadmap v1.4 through v1.6.
+QA Agent independently validates reviewed implementation work against approved
+requirements, acceptance criteria, product scope, UX/UI acceptance scenarios when
+applicable, architecture constraints relevant to behavior, governance conditions, defect
+evidence, and release-readiness expectations. It cannot implement fixes, merge pull
+requests, deploy code, approve final release, or replace Critic Agent, DevOps Agent,
+Governance Agent, or Human Decision Approver approval.
+
+## Level 8: Deployment and Knowledge Agents (Future)
+
+DevOps Agent and Documentation Agent - defined in roadmap v1.5 through v1.6.

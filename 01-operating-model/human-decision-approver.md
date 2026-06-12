@@ -42,8 +42,8 @@ Specifically, the human approves:
 
 - Write application code
 - Configure development tools (agents handle this with human approval of standards)
-- Line-by-line code review (Critic Agent handles review; QA Agent will handle future QA
-  execution)
+- Line-by-line code review or QA execution (Critic Agent handles review; QA Agent
+  handles validation)
 - Bypass approval gates
 
 ## Decision Recording

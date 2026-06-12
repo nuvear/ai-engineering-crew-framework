@@ -19,7 +19,8 @@ Deliverable | Prepared By | Reviewed By | Approved By
 | Build Plan                  | Builder Agent                            | Enterprise Architect Agent + Governance Agent                | Human             |
 | Implementation Pull Request | Builder Agent                            | Critic Agent + Enterprise Architect Agent + Governance Agent | Human             |
 | Critic Review               | Critic Agent                             | Enterprise Architect Agent + Governance Agent                | Human if required |
-| Release                     | QA + DevOps + Documentation + Governance | Enterprise Architect Agent                                   | Human             |
+| QA Validation               | QA Agent                                 | Critic Agent + Enterprise Architect Agent + Governance Agent | Human if required |
+| Release                     | QA + Governance + DevOps + Documentation | Enterprise Architect Agent                                   | Human             |
 
 ## Approval Recording
 
@@ -46,3 +47,11 @@ Human Decision Approver governance acceptance exist.
 Critic Agent must not implement fixes, approve final merge, deploy code, or replace QA
 Agent. Critic Agent may recommend QA readiness only after independent review findings do
 not block QA handover. Level 4 findings require Human Decision Approver visibility.
+
+## QA Approval Constraints
+
+QA Agent must not implement fixes, merge pull requests, deploy code, approve final
+release, or replace Critic Agent, DevOps Agent, Governance Agent, or Human Decision
+Approver approval. QA Agent may recommend pass, fail, conditional pass, or blocked
+status based on validation evidence. Level 4 defects require Human Decision Approver
+visibility.

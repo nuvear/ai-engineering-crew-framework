@@ -34,6 +34,9 @@ Build plans, implementation tasks, files changed summary, test evidence, pull re
 
 Critic Agent:
 Critic review reports, traceability review, architecture conformance review, governance conformance review, findings, Critic-to-Builder feedback, Critic-to-QA handover
+
+QA Agent:
+QA test plans, test cases, test execution reports, defect reports, acceptance criteria coverage matrix, regression risk notes, governance validation notes, QA-to-DevOps handover
 ```
 
 ## Pull Request Requirements

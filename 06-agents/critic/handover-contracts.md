@@ -63,7 +63,8 @@ include:
 ## Critic-to-QA Handover
 
 Critic Agent prepares QA handover only when review findings do not block QA readiness.
-The handover must include:
+QA Agent uses this handover as the required entry point for independent validation. The
+handover must include:
 
 - Pull request link
 - Review summary
@@ -74,6 +75,7 @@ The handover must include:
 - Known limitations
 - Residual risks
 - QA focus areas
+- Confirmation that no unresolved Level 3 or Level 4 finding blocks QA
 
 ## Stop Conditions
 
